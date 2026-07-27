@@ -1,0 +1,28 @@
+def run_bin(capacity, events):
+    on_hand = 0
+    wasted = 0
+    backordered = 0
+    filled_orders = 0
+    backordered_orders = 0
+
+    for kind, amount in events:
+        if kind == "restock":
+            overflow = max(0, on_hand + amount - capacity)
+            on_hand = min(on_hand + amount, capacity)
+            wasted += overflow
+        elif kind == "ship":
+            if amount <= on_hand:
+                on_hand -= amount
+                filled_orders += 1
+            else:
+                backordered += amount - on_hand
+                on_hand = 0
+                backordered_orders += 1
+
+    return {
+        "on_hand": on_hand,
+        "wasted": wasted,
+        "backordered": backordered,
+        "filled_orders": filled_orders,
+        "backordered_orders": backordered_orders
+    }

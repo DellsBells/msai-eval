@@ -1,0 +1,16 @@
+def resolve_ranges(allowed, blocked):
+    allowed_set = set(tuple(range(start, end + 1)) for start, end in allowed)
+    blocked_set = set()
+    
+    # Add all intervals from the blocked list to a single set
+    for block_start, block_end in blocked:
+        for i in range(block_start, block_end + 1):
+            blocked_set.add(i)
+    
+    # Calculate the difference between allowed and blocked sets
+    result = tuple(allowed_set - blocked_set)
+    
+    return result
+
+# Example usage
+print(resolve_ranges([[0, 10]], [[3, 5], [7, 8]]))

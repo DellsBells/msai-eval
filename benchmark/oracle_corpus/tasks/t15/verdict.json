@@ -1,0 +1,13 @@
+{
+  "task_id": "t15",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 18 tests deterministically across two runs",
+    "broken_solution.py fails 6 (uses calendar d.year instead of ISO iso[0]) and passes 12",
+    "my independent blind solution passes all 18 tests including low-year zero-padding and ISO year boundaries",
+    "sneaky-wrong attack (year formatted with %d instead of %04d, correct for years>=1000 but wrong for ISO years <1000) was CAUGHT: fails low-year and key-format property tests (8 failures)",
+    "static: imports 'solution', stdlib only (datetime, random), deterministic seeds, no clock/file/network read, <5s, many asserts, three property-style tests, prompt never mentions tests"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

@@ -1,0 +1,26 @@
+def slugify(text: str) -> str:
+    # Step 1: Convert ASCII uppercase letters to lowercase
+    ascii_lowercase = ''.join(chr(i) for i in range(97, 123))
+    ascii_uppercase = ''.join(chr(i) for i in range(65, 91))
+    translation_table = str.maketrans(ascii_uppercase, ascii_lowercase)
+    text = text.translate(translation_table)
+    
+    # Step 2 and 3: Replace separators with hyphens
+    result = []
+    in_separator_run = False
+    for char in text:
+        if 'a' <= char <= 'z' or '0' <= char <= '9':
+            if in_separator_run:
+                result.append('-')
+                in_separator_run = False
+            result.append(char)
+        else:
+            in_separator_run = True
+    
+    # Step 4: Remove leading and trailing hyphens
+    if result and result[0] == '-':
+        result.pop(0)
+    if result and result[-1] == '-':
+        result.pop()
+    
+    return ''.join(result)

@@ -1,0 +1,5 @@
+def positional_divergence(a: str, b: str) -> int:
+    n = min(len(a), len(b))
+    divergence = sum(1 for i in range(n) if a[i] != b[i])
+    divergence += abs(len(a) - len(b))
+    return divergence

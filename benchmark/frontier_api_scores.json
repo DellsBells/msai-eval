@@ -1,0 +1,7230 @@
+{
+ "meta": {
+  "n": 10,
+  "R": 3,
+  "seed": 0,
+  "judges": {
+   "openai": "gpt-5.5",
+   "xai": "grok-4.3",
+   "gemini": "models/gemini-3.1-pro-preview",
+   "claude": "claude-opus-4-8",
+   "deepseek": "deepseek-v4-pro"
+  },
+  "cost_usd": 2.2253,
+  "in_tokens": 276057,
+  "out_tokens": 19750,
+  "failures": 0,
+  "elapsed_s": 447.4,
+  "appended": [
+   {
+    "judges": [
+     "deepseek"
+    ],
+    "cost_usd": 0.4102,
+    "failures": 0
+   }
+  ]
+ },
+ "scores": [
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "openai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "xai",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "claude",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "gemini",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "resolve",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 4.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 0,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 1,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "subtle",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 2,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 3,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 4,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 2.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 6,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 5,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 7,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 5.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 4.0
+  },
+  {
+   "tier": "tie",
+   "pair": 8,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 3.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "rejected",
+   "judge": "deepseek",
+   "rep": 0,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 1,
+   "score": 1.0
+  },
+  {
+   "tier": "tie",
+   "pair": 9,
+   "config": "chosen",
+   "judge": "deepseek",
+   "rep": 2,
+   "score": 1.0
+  }
+ ]
+}

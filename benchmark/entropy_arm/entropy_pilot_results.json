@@ -1,0 +1,385 @@
+{
+ "n_rows": 256,
+ "per_model": {
+  "qwen2.5vl:7b": {
+   "correct": 0,
+   "wrong": 25,
+   "nocite": 31,
+   "REFUSED": 72,
+   "P1_auc_entropy_predicts_wrong": null,
+   "P2_auc_logprob_predicts_correct": null,
+   "P3_stored_phantoms": [
+    {
+     "q": 0,
+     "quantity": "the experimental standard deviation of the mean (T",
+     "entropy": -0.0
+    },
+    {
+     "q": 2,
+     "quantity": "the degrees of freedom of a Type A standard uncert",
+     "entropy": -0.0
+    },
+    {
+     "q": 3,
+     "quantity": "the sensitivity coefficient in uncertainty propaga",
+     "entropy": -0.0
+    },
+    {
+     "q": 4,
+     "quantity": "the combined standard uncertainty u_c",
+     "entropy": 0.333
+    },
+    {
+     "q": 5,
+     "quantity": "the effective degrees of freedom (Welch-Satterthwa",
+     "entropy": 0.0
+    },
+    {
+     "q": 6,
+     "quantity": "the coverage factor k",
+     "entropy": -0.0
+    },
+    {
+     "q": 7,
+     "quantity": "the expanded uncertainty U",
+     "entropy": 0.333
+    },
+    {
+     "q": 11,
+     "quantity": "the guard band in decision rules",
+     "entropy": -0.0
+    },
+    {
+     "q": 12,
+     "quantity": "the acceptance limits in a decision rule",
+     "entropy": 0.0
+    },
+    {
+     "q": 13,
+     "quantity": "the test uncertainty ratio (TUR)",
+     "entropy": 0.333
+    },
+    {
+     "q": 14,
+     "quantity": "the z-score for proficiency testing assessment",
+     "entropy": 0.0
+    },
+    {
+     "q": 15,
+     "quantity": "the En number for proficiency testing assessment",
+     "entropy": -0.0
+    }
+   ],
+   "questions": [
+    {
+     "q": 0,
+     "quantity": "the experimental standard deviation of the mean (T",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 1,
+     "quantity": "the standard uncertainty u(xi) of an input estimat",
+     "correct_rate": 0.0,
+     "distinct": 3,
+     "entropy_norm": 0.528,
+     "majority_wrong": true
+    },
+    {
+     "q": 2,
+     "quantity": "the degrees of freedom of a Type A standard uncert",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 3,
+     "quantity": "the sensitivity coefficient in uncertainty propaga",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 4,
+     "quantity": "the combined standard uncertainty u_c",
+     "correct_rate": 0.0,
+     "distinct": 2,
+     "entropy_norm": 0.333,
+     "majority_wrong": true
+    },
+    {
+     "q": 5,
+     "quantity": "the effective degrees of freedom (Welch-Satterthwa",
+     "correct_rate": 0.0,
+     "distinct": 0,
+     "entropy_norm": 0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 6,
+     "quantity": "the coverage factor k",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 7,
+     "quantity": "the expanded uncertainty U",
+     "correct_rate": 0.0,
+     "distinct": 2,
+     "entropy_norm": 0.333,
+     "majority_wrong": true
+    },
+    {
+     "q": 8,
+     "quantity": "the tolerance interval (upper and lower tolerance ",
+     "correct_rate": 0.0,
+     "distinct": 3,
+     "entropy_norm": 0.528,
+     "majority_wrong": true
+    },
+    {
+     "q": 9,
+     "quantity": "the conformance probability pc",
+     "correct_rate": 0.0,
+     "distinct": 3,
+     "entropy_norm": 0.528,
+     "majority_wrong": true
+    },
+    {
+     "q": 10,
+     "quantity": "the measurement capability index Cm",
+     "correct_rate": 0.0,
+     "distinct": 4,
+     "entropy_norm": 0.667,
+     "majority_wrong": true
+    },
+    {
+     "q": 11,
+     "quantity": "the guard band in decision rules",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 12,
+     "quantity": "the acceptance limits in a decision rule",
+     "correct_rate": 0.0,
+     "distinct": 0,
+     "entropy_norm": 0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 13,
+     "quantity": "the test uncertainty ratio (TUR)",
+     "correct_rate": 0.0,
+     "distinct": 2,
+     "entropy_norm": 0.333,
+     "majority_wrong": true
+    },
+    {
+     "q": 14,
+     "quantity": "the z-score for proficiency testing assessment",
+     "correct_rate": 0.0,
+     "distinct": 0,
+     "entropy_norm": 0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 15,
+     "quantity": "the En number for proficiency testing assessment",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    }
+   ]
+  },
+  "gemma4:12b": {
+   "correct": 0,
+   "wrong": 73,
+   "nocite": 29,
+   "REFUSED": 26,
+   "P1_auc_entropy_predicts_wrong": null,
+   "P2_auc_logprob_predicts_correct": null,
+   "P3_stored_phantoms": [
+    {
+     "q": 3,
+     "quantity": "the sensitivity coefficient in uncertainty propaga",
+     "entropy": -0.0
+    },
+    {
+     "q": 5,
+     "quantity": "the effective degrees of freedom (Welch-Satterthwa",
+     "entropy": -0.0
+    },
+    {
+     "q": 8,
+     "quantity": "the tolerance interval (upper and lower tolerance ",
+     "entropy": 0.0
+    },
+    {
+     "q": 10,
+     "quantity": "the measurement capability index Cm",
+     "entropy": 0.0
+    },
+    {
+     "q": 11,
+     "quantity": "the guard band in decision rules",
+     "entropy": -0.0
+    },
+    {
+     "q": 12,
+     "quantity": "the acceptance limits in a decision rule",
+     "entropy": -0.0
+    },
+    {
+     "q": 13,
+     "quantity": "the test uncertainty ratio (TUR)",
+     "entropy": 0.333
+    },
+    {
+     "q": 14,
+     "quantity": "the z-score for proficiency testing assessment",
+     "entropy": -0.0
+    }
+   ],
+   "questions": [
+    {
+     "q": 0,
+     "quantity": "the experimental standard deviation of the mean (T",
+     "correct_rate": 0.0,
+     "distinct": 7,
+     "entropy_norm": 0.917,
+     "majority_wrong": true
+    },
+    {
+     "q": 1,
+     "quantity": "the standard uncertainty u(xi) of an input estimat",
+     "correct_rate": 0.0,
+     "distinct": 6,
+     "entropy_norm": 0.802,
+     "majority_wrong": true
+    },
+    {
+     "q": 2,
+     "quantity": "the degrees of freedom of a Type A standard uncert",
+     "correct_rate": 0.0,
+     "distinct": 7,
+     "entropy_norm": 0.936,
+     "majority_wrong": true
+    },
+    {
+     "q": 3,
+     "quantity": "the sensitivity coefficient in uncertainty propaga",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 4,
+     "quantity": "the combined standard uncertainty u_c",
+     "correct_rate": 0.0,
+     "distinct": 6,
+     "entropy_norm": 0.802,
+     "majority_wrong": true
+    },
+    {
+     "q": 5,
+     "quantity": "the effective degrees of freedom (Welch-Satterthwa",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 6,
+     "quantity": "the coverage factor k",
+     "correct_rate": 0.0,
+     "distinct": 8,
+     "entropy_norm": 1.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 7,
+     "quantity": "the expanded uncertainty U",
+     "correct_rate": 0.0,
+     "distinct": 6,
+     "entropy_norm": 0.833,
+     "majority_wrong": true
+    },
+    {
+     "q": 8,
+     "quantity": "the tolerance interval (upper and lower tolerance ",
+     "correct_rate": 0.0,
+     "distinct": 0,
+     "entropy_norm": 0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 9,
+     "quantity": "the conformance probability pc",
+     "correct_rate": 0.0,
+     "distinct": 3,
+     "entropy_norm": 0.528,
+     "majority_wrong": true
+    },
+    {
+     "q": 10,
+     "quantity": "the measurement capability index Cm",
+     "correct_rate": 0.0,
+     "distinct": 0,
+     "entropy_norm": 0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 11,
+     "quantity": "the guard band in decision rules",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 12,
+     "quantity": "the acceptance limits in a decision rule",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 13,
+     "quantity": "the test uncertainty ratio (TUR)",
+     "correct_rate": 0.0,
+     "distinct": 2,
+     "entropy_norm": 0.333,
+     "majority_wrong": true
+    },
+    {
+     "q": 14,
+     "quantity": "the z-score for proficiency testing assessment",
+     "correct_rate": 0.0,
+     "distinct": 1,
+     "entropy_norm": -0.0,
+     "majority_wrong": true
+    },
+    {
+     "q": 15,
+     "quantity": "the En number for proficiency testing assessment",
+     "correct_rate": 0.0,
+     "distinct": 4,
+     "entropy_norm": 0.583,
+     "majority_wrong": true
+    }
+   ]
+  }
+ }
+}

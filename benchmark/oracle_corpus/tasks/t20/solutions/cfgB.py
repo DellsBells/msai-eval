@@ -1,0 +1,26 @@
+def replay(capacity: int, ops: list[str]) -> list[str]:
+    session_log = []
+    checkpoints = {}
+    
+    for op in ops:
+        if len(session_log) > capacity:
+            # Remove the oldest checkpoint and its corresponding log entries
+            old_checkpoint = min(checkpoints.keys())
+            del checkpoints[old_checkpoint]
+            while session_log[-1] != f"CHECKPOINT {old_checkpoint}":
+                session_log.pop()
+                
+        # Add a new operation to the log if it's not already there
+        if op not in session_log:
+            session_log.append(op)
+        
+        # Checkpoint every 'capacity' operations
+        if len(session_log) % capacity == 0 and op != "CHECKPOINT":
+            checkpoint_id = len(checkpoints.keys())
+            checkpoints[checkpoint_id] = f"CHECKPOINT {checkpoint_id}"
+            session_log.append(checkpoints[checkpoint_id])
+    
+    return session_log
+
+# Example usage:
+print(replay(2, ["TOUCH a", "TOUCH b", "TOUCH c"]))

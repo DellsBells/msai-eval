@@ -1,0 +1,24 @@
+```python
+def rolling_ranges(readings, k):
+    if k < 1:
+        raise ValueError("Window size k must be at least 1.")
+    
+    n = len(readings)
+    if n < k:
+        return ([], -1)
+    
+    ranges = []
+    peak_index = 0
+    max_range = float('-inf')
+    
+    for i in range(n - k + 1):
+        window = readings[i:i + k]
+        current_range = max(window) - min(window)
+        ranges.append(current_range)
+        
+        if current_range > max_range:
+            max_range = current_range
+            peak_index = i
+    
+    return (ranges, peak_index)
+```

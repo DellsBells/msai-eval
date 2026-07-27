@@ -1,0 +1,13 @@
+{
+  "task_id": "t11",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 17 tests deterministically across two runs",
+    "broken_solution.py fails 4 (incl. test_invariant_total_ge_multi_ge_zero, test_property_matches_bruteforce_integer_grid) and passes 13",
+    "my independent blind solution passes all 17 tests including int/float type-preservation",
+    "sneaky-wrong attack (accumulators seeded at 0.0 breaking int-type preservation) was CAUGHT: fails test_integer_inputs_return_ints",
+    "static: imports 'solution', stdlib only (random), deterministic seed, <5s, many asserts, property-style test present, type-preservation edge cases tested, prompt never mentions tests"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

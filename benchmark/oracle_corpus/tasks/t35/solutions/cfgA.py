@@ -1,0 +1,11 @@
+def multisort(records, keys):
+    def sort_key(record):
+        return tuple(
+            (record[field], 1 if direction == "asc" else -1)
+            for field, direction in keys
+        )
+    
+    if any(direction not in ("asc", "desc") for _, direction in keys):
+        raise ValueError("Direction must be either 'asc' or 'desc'")
+    
+    return sorted(records, key=sort_key)

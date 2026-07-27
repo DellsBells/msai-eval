@@ -1,0 +1,1102 @@
+{
+  "generator": "qwen3.5:27b",
+  "judges": [
+    "gemma4:12b",
+    "gemma4:31b-mlx",
+    "qwen2.5vl:7b",
+    "qwen3.6:35b-mlx"
+  ],
+  "n_products": 5,
+  "trials": 3,
+  "temp": 0.7,
+  "mean_quality": {
+    "good": 3.5833333333333335,
+    "weak": 2.8
+  },
+  "raw": [
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 0,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 4
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 1,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 2
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 4
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 2,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 4
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 4
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 4
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 4
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 4
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 2
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 2
+    },
+    {
+      "config": "good",
+      "product": 3,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 4
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 2
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 1
+    },
+    {
+      "config": "good",
+      "product": 4,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 4
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 0,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "weak",
+      "product": 1,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 3
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 3
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 3
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 4
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 2,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 4
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 4
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 4
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 4
+    },
+    {
+      "config": "weak",
+      "product": 3,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "gemma4:12b",
+      "trial": 0,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "gemma4:12b",
+      "trial": 1,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "gemma4:12b",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "gemma4:31b-mlx",
+      "trial": 0,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "gemma4:31b-mlx",
+      "trial": 1,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "gemma4:31b-mlx",
+      "trial": 2,
+      "score": 2
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "qwen2.5vl:7b",
+      "trial": 0,
+      "score": 4
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "qwen2.5vl:7b",
+      "trial": 1,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "qwen2.5vl:7b",
+      "trial": 2,
+      "score": 5
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 0,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 1,
+      "score": 1
+    },
+    {
+      "config": "weak",
+      "product": 4,
+      "judge": "qwen3.6:35b-mlx",
+      "trial": 2,
+      "score": 1
+    }
+  ],
+  "reliability": {
+    "n_items": 10,
+    "n_judges": 4,
+    "n_trials_max": 3,
+    "krippendorff_alpha": 0.39305993690851726,
+    "alpha_ci": [
+      0.021482784550571305,
+      0.6357886191526073
+    ],
+    "alpha_level": "ordinal",
+    "is_nominal": false,
+    "icc_2_1": 0.4293216872132232,
+    "icc_ci": [
+      0.14311630114847887,
+      0.6466061175073539
+    ],
+    "raw_agreement": {
+      "exact_agreement": 0.16666666666666666,
+      "mean_abs_diff": 1.1166666666666667,
+      "rater_pairs": 6
+    },
+    "rater_effects": {
+      "gemma4:12b": 0.2416666666666667,
+      "gemma4:31b-mlx": -0.32499999999999996,
+      "qwen2.5vl:7b": 0.8416666666666666,
+      "qwen3.6:35b-mlx": -0.7583333333333333
+    },
+    "variance_components": {
+      "sigma2_item": 0.7989711934156379,
+      "sigma2_judge": 0.4181069958847736,
+      "sigma2_interaction": 0.5217078189300413,
+      "sigma2_repeat": 0.36666666666666653,
+      "grr_sd": 1.1430142087837234,
+      "tv_sd": 1.451017806540333,
+      "measurement_noise_share_pct": 62.05228438797947,
+      "msi_grr_pct": 78.77327236314325,
+      "ndc": 1.0,
+      "deterministic": false,
+      "flags": []
+    },
+    "accuracy": null,
+    "gauge_judgement": {
+      "pct_grr": 78.8,
+      "ndc": 1.0,
+      "verdict": "NOT ACCEPTABLE",
+      "reason": "%GRR = 78.8% exceeds 30% \u2014 the measurement system's own noise is too large."
+    },
+    "agreement_band": "low agreement \u2014 measurement system is noisy",
+    "flags": [],
+    "detail": {
+      "items": [
+        "good|0",
+        "good|1",
+        "good|2",
+        "good|3",
+        "good|4",
+        "weak|0",
+        "weak|1",
+        "weak|2",
+        "weak|3",
+        "weak|4"
+      ],
+      "judges": [
+        "gemma4:12b",
+        "gemma4:31b-mlx",
+        "qwen2.5vl:7b",
+        "qwen3.6:35b-mlx"
+      ],
+      "grid": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "item_agreement": [
+        0.5,
+        0.75,
+        0.5,
+        0.25,
+        0.5,
+        0.5,
+        0.25,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "graded_against": "panel consensus"
+    }
+  },
+  "uncertainty": {
+    "components": [
+      {
+        "source": "repeatability (re-scoring)",
+        "type": "A",
+        "u": 0.60553,
+        "dof": 80,
+        "pct": 26.4
+      },
+      {
+        "source": "reproducibility (between-judge)",
+        "type": "A",
+        "u": 0.96944,
+        "dof": 3,
+        "pct": 67.6
+      },
+      {
+        "source": "resolution (quantization)",
+        "type": "B",
+        "u": 0.288675,
+        "dof": Infinity,
+        "pct": 6.0
+      }
+    ],
+    "u_c": 1.178904,
+    "nu_eff": 6.523481686796942,
+    "k": 2.45,
+    "U": 2.888315,
+    "dominant": {
+      "source": "reproducibility (between-judge)",
+      "type": "A",
+      "u": 0.96944,
+      "dof": 3,
+      "pct": 67.6
+    },
+    "warnings": []
+  },
+  "compare": {
+    "baseline": "weak",
+    "baseline_mean": 2.8,
+    "level": "ordinal",
+    "gauge": {
+      "ndc": 0.0,
+      "grr_sd": 1.3796805856858747,
+      "guard_band": 2.875497,
+      "qualified": true,
+      "resolution_budget": {
+        "U": 2.875497,
+        "u_c": 1.409557,
+        "k": 2.04,
+        "dominant": {
+          "source": "repeatability (re-scoring)",
+          "type": "A",
+          "u": 1.178175,
+          "dof": 112,
+          "pct": 69.9
+        },
+        "lever": "lower judge temperature, or average more trials per item.",
+        "components": [
+          {
+            "source": "repeatability (re-scoring)",
+            "type": "A",
+            "u": 1.178175,
+            "dof": 112,
+            "pct": 69.9
+          },
+          {
+            "source": "reproducibility (between-judge)",
+            "type": "A",
+            "u": 0.71793,
+            "dof": 3,
+            "pct": 25.9
+          },
+          {
+            "source": "resolution (quantization)",
+            "type": "B",
+            "u": 0.288675,
+            "dof": Infinity,
+            "pct": 4.2
+          }
+        ]
+      },
+      "reference_fitness": null,
+      "warnings": [
+        "ndc=0 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive: it scales with how far apart the hand-picked configs happen to be, so it under-reports when configs cluster into a few quality tiers even on a sharp gauge. The gauge's real resolution is the guard band \u2014 lean on it and the per-config verdicts, never ndc, as the accept/reject grade."
+      ]
+    },
+    "comparisons": {
+      "good": {
+        "mean": 3.5833333333333335,
+        "delta": 0.7833333333333337,
+        "ci": [
+          0.033333333333333215,
+          1.4333333333333336
+        ],
+        "resolvable_raw": true,
+        "p_raw": 0.036,
+        "cliffs_delta": 0.3202777777777778,
+        "p_holm": 0.036,
+        "significant_adj": true,
+        "beyond_gauge": false,
+        "verdict": "statistically real gain, but BELOW gauge resolution"
+      }
+    },
+    "notes": [
+      "ordinal scores: \u0394 is a difference of MEANS and assumes interval spacing. Cliff's \u03b4 (rank-based) is the assumption-free effect size shown alongside. A confident directional verdict is WITHHELD when mean \u0394 and Cliff's \u03b4 disagree in sign (the interval-spacing assumption is then unsafe) \u2014 reported as 'mean \u0394 and rank-effect disagree', not a drop/gain.",
+      "two gates kept separate: 'resolvable' (CI excludes 0, Holm-corrected) vs 'beyond gauge resolution' (|\u0394| > guard band). A drop can be real yet sub-resolution.",
+      "configs are fixed treatments, not a random part sample \u2014 this is why compare() uses direct pairwise deltas, not selection-sensitive %GRR or ndc, as the verdict. ndc is reported as advisory context only and never gates qualification.",
+      "'within noise (indistinguishable on this gauge)' means |\u0394| is below THIS gauge's resolution (the guard band) \u2014 it is NOT a claim the configs are equal or 'lossless'. A real difference smaller than the guard band reads this way. To trust a 'within noise' verdict for small deltas, first confirm the guard band is fine enough (shrink GRR with more trials/judges); a statistically real difference below resolution is reported separately as 'statistically real but BELOW gauge resolution', never as 'within noise'."
+    ]
+  }
+}

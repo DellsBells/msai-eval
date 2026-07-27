@@ -1,0 +1,13 @@
+{
+  "task_id": "t47",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 11 tests deterministically across two runs",
+    "broken_solution.py (BFS instead of pre-order DFS) fails 2 (test_preorder_beats_bfs, property test) and passes 9",
+    "my independent blind solution passed the full suite",
+    "sneaky-wrong attack (shared-path backtracking returning a live mutated list reference) was CAUGHT by 8 tests including the property test",
+    "static: imports 'solution', stdlib only (copy, random, collections), deterministic seeded, <5s, 11 tests with many asserts, exact-equality-vs-substring coverage plus property test, prompt never mentions tests, not a classic"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

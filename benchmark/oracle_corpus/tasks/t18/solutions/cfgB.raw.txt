@@ -1,0 +1,27 @@
+```python
+def run_editor(commands: list[str]) -> str:
+    command_stack = []
+    current_text = ""
+    
+    for command in commands:
+        if "APPEND:" in command:
+            text_to_append = command.split(":")[1]
+            command_stack.append(f"APPEND:{text_to_append}")
+            current_text += text_to_append
+        elif "REDO:" in command:
+            redo_command = command_stack.pop()
+            action, *args = redo_command.split(":")
+            if action == "APPEND":
+                current_text += ":".join(args)
+        else:  # UNDO command
+            undo_command = command_stack.pop()
+            action, *args = undo_command.split(":")
+            if action == "APPEND":
+                current_text = current_text.rsplit(":", 1)[0]
+    
+    return current_text
+
+# Example usage:
+result = run_editor(["APPEND:hello", "APPEND: world"])
+print(result)  # Output: hello
+```

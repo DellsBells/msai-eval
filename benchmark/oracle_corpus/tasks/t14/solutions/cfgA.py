@@ -1,0 +1,25 @@
+import datetime
+
+def nth_weekday_dates(year: int, weekday: int, n: int) -> list[str]:
+    dates = []
+    for month in range(1, 13):
+        if n > 0:
+            count = 0
+            day = 1
+            while count < n:
+                date = datetime.date(year, month, day)
+                if date.weekday() == weekday:
+                    count += 1
+                if count == n:
+                    dates.append(date.isoformat())
+                    break
+                day += 1
+        elif n == -1:
+            day = 28 if month in {4, 6, 9, 11} else 30 if month == 2 and not (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)) else 31
+            while True:
+                date = datetime.date(year, month, day)
+                if date.weekday() == weekday:
+                    dates.append(date.isoformat())
+                    break
+                day -= 1
+    return dates

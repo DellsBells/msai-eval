@@ -1,0 +1,15 @@
+{
+  "task_id": "t51",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation from prompt.md alone (weighted edit-distance DP: insert/delete=1, substitute=2, match free, then cap->-1) passed all 11 tests.",
+    "reference_solution.py passed all 11 tests deterministically across two runs (identical outcome).",
+    "broken_solution.py (substitution cost 1 instead of 2) fails 6 and passes 5 — satisfies fail>=1, pass>=1.",
+    "Sneaky-wrong off-by-one boundary (>= cap instead of > cap) caught: fails test_boundary_cap_equals_distance and 5 others.",
+    "Sneaky-wrong 'aligned shortcut' (the exact left-align 2*mismatch + lendiff shortcut the prompt warns against) caught by test_matches_ground_truth_property.",
+    "Sneaky-wrong case-insensitive matching caught by test_case_sensitive.",
+    "Static checks pass: tests import 'solution'; stdlib only (random, functools.lru_cache); random only via seeded Random(seed) inside property loops; no time/network/filesystem/env; 19 assertions; two seeded property tests including comparison to an independent ground-truth recursion (not overfit to reference DP); suite runtime ~0.16s; prompt never mentions tests/grading; difficulty 'medium' is sane; not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

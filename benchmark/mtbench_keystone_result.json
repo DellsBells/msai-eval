@@ -1,0 +1,87 @@
+{
+  "tiers": {
+    "decisive": {
+      "n_live": 5,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": 1.28,
+      "delta": 1.2799999999999998,
+      "beyond_gauge": false,
+      "significant": true,
+      "qualified": true,
+      "guard_band": 1.567133,
+      "repro_sd": 0.453,
+      "repro_ok": true,
+      "verdict": "statistically real gain, but BELOW gauge resolution",
+      "gauge_warnings": [
+        "ndc=3 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ],
+      "notes": []
+    },
+    "subtle": {
+      "n_live": 5,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": 0.97,
+      "delta": 0.9700000000000002,
+      "beyond_gauge": false,
+      "significant": true,
+      "qualified": true,
+      "guard_band": 2.18486,
+      "repro_sd": 0.6075,
+      "repro_ok": true,
+      "verdict": "statistically real gain, but BELOW gauge resolution",
+      "gauge_warnings": [
+        "ndc=1 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ],
+      "notes": []
+    },
+    "tie": {
+      "n_live": 5,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": -0.12,
+      "delta": -0.1200000000000001,
+      "beyond_gauge": false,
+      "significant": false,
+      "qualified": true,
+      "guard_band": 2.010622,
+      "repro_sd": 0.5312,
+      "repro_ok": true,
+      "verdict": "within noise (indistinguishable on this gauge)",
+      "gauge_warnings": [
+        "ndc=1 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ],
+      "notes": []
+    }
+  },
+  "perceived_ladder": [
+    1.28,
+    0.97,
+    -0.12
+  ],
+  "checks": {
+    "manipulation_monotone": true,
+    "decisive_resolves": false,
+    "subtle_real_but_below": true,
+    "tie_within_noise": true
+  },
+  "GATE_PASS": true,
+  "PASS": false,
+  "judges": [
+    "gemma4:12b",
+    "gemma4:31b-mlx",
+    "qwen3.5:27b",
+    "qwen3.6:35b-mlx",
+    "qwen2.5-coder:32b"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "t09",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation (written from prompt.md alone, before opening any other file) passed all 14 tests / 19 assertions.",
+    "reference_solution.py passes 14/14 and is deterministic: two identical runs, same outcome.",
+    "broken_solution.py fails 2 (test_adjacent_integers_merge, test_property_result_is_disjoint_and_sorted) and passes 12 — meets fail>=1 and pass>=1.",
+    "Sneaky-wrong attacks all caught: over-merge (gap+2) fails coverage/mutation props; return-tuples fails test_returns_lists_not_tuples; IN-PLACE-SORT/input-mutation fails test_input_not_mutated and test_input_not_mutated_when_merging (both use UNSORTED input, so an in-place sort is detectable); no-max-end (nested shrink) fails coverage prop; sorted-desc fails sorted prop; missing-adjacency (the broken variant) fails adjacency test.",
+    "Two variants that passed (sort-by-start-only, copy-on-append) were brute-force verified over 100K-200K random cases to be genuinely correct, non-mutating alternatives — not suite weaknesses.",
+    "Static checks pass: tests import 'solution' not the reference; stdlib only (random seeded with Random(1234)/Random(99) inside property loops); no time/network/filesystem/env/subprocess; runtime ~0.01-0.03s (<5s); 19 assertions (>=8); two property-style tests (disjoint+sorted, coverage-matches-pointset).",
+    "prompt.md never mentions tests/grading/pytest; meta difficulty 'easy' is sane; the +1 integer-adjacency merge rule is a non-standard twist on the classic overlap-only merge, so not a verbatim textbook classic.",
+    "NOTE: a stale verdict.json from a prior run claimed a 13-test suite with a weak mutation test (data already sorted). The CURRENT 14-test suite already applies that fix (test_input_not_mutated uses unsorted [[5,7],[1,2]] and adds test_input_not_mutated_when_merging); the in-place-sort sneaky attack is caught. Stale verdict overwritten."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

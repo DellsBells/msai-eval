@@ -1,0 +1,17 @@
+```python
+def execute(program: list[str]) -> list[int]:
+    stack = []
+    for instruction in program:
+        if "PUSH" in instruction:
+            value = int(instruction.split()[1])
+            stack.append(value)
+        elif "ADD" in instruction:
+            second_value = stack.pop()
+            first_value = stack.pop()
+            result = first_value + second_value
+            stack.append(result)
+    return stack
+
+# Example usage
+print(execute(["PUSH 2", "PUSH 3", "ADD"]))
+```

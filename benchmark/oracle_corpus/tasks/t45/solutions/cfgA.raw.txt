@@ -1,0 +1,9 @@
+```python
+def deepest_level(tree):
+    def find_deepest(node, level):
+        if not node["children"]:
+            return level
+        return max(find_deepest(child, level + 1) for child in node["children"])
+    
+    return find_deepest(tree, 0)
+```

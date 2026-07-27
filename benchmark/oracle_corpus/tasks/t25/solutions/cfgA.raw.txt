@@ -1,0 +1,16 @@
+```python
+def reachable_from(graph: dict, start) -> set:
+    visited = set()
+    stack = [start]
+    
+    while stack:
+        node = stack.pop()
+        if node not in visited:
+            visited.add(node)
+            successors = graph.get(node, [])
+            for successor in successors:
+                if successor not in visited:
+                    stack.append(successor)
+    
+    return visited
+```

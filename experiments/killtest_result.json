@@ -1,0 +1,27 @@
+{
+  "pooled_V": {
+    "adjacent": 0.6931949246809476,
+    "strided8": 0.5502976374145938,
+    "inter_layer": 0.5660529184719824,
+    "inter_layer_scaled": 0.9658943885159785
+  },
+  "pooled_K": {
+    "adjacent": 69.69646053694984,
+    "strided8": 40.97878958050634,
+    "inter_layer": 0.9083857936410238,
+    "inter_layer_scaled": 1.3418249376952114
+  },
+  "per_channel": {
+    "V_adjacent": 0.6978513598442078,
+    "V_strided8": 0.5151421427726746,
+    "K_adjacent": 1.0364797115325928,
+    "K_strided8": 0.6511861085891724,
+    "V_interlayer_learned": 1.0051442384719849,
+    "K_interlayer_learned": 0.9906097650527954
+  },
+  "interlayer_best": 1.0051442384719849,
+  "honest_best": 1.0364797115325928,
+  "alive": false,
+  "context_tokens": 288,
+  "layers": 28
+}

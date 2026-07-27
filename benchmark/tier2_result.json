@@ -1,0 +1,1418 @@
+{
+  "models": [
+    "resale-vlm:12b",
+    "resale-vlm-v2:12b",
+    "gemma4:12b",
+    "qwen3.5:27b"
+  ],
+  "n": 50,
+  "country": null,
+  "accuracy": {
+    "resale-vlm:12b": 0.7,
+    "resale-vlm-v2:12b": 0.78,
+    "gemma4:12b": 0.78,
+    "qwen3.5:27b": 0.88
+  },
+  "per_item": [
+    {
+      "model": "resale-vlm:12b",
+      "upc": "3616307083157",
+      "ref": "Jawhara",
+      "pred": "Jawhara",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "5901887022787",
+      "ref": "Ziaja",
+      "pred": "ziaja",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8411134138927",
+      "ref": "Control",
+      "pred": "NATURE",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "3600524216955",
+      "ref": "L'Or\u00e9al",
+      "pred": "L'Oreal Paris",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "5905699596016",
+      "ref": "Korzenie",
+      "pred": "K",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "7046110075562",
+      "ref": "Jordan",
+      "pred": "Jordan",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "7046110071519",
+      "ref": "Jordan",
+      "pred": "Jordan",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "5029053538426",
+      "ref": "Huggies",
+      "pred": "Disney",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951254183",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951246645",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951268432",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951268425",
+      "ref": "Sanex",
+      "pred": "CeraVe",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951247024",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951730328",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951730298",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951601888",
+      "ref": "Sanex",
+      "pred": "",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951730854",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718114202402",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "59095446",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8720181183805",
+      "ref": "Rexona",
+      "pred": "Rekona",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718114202372",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8720181183775",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "59095552",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8713091028724",
+      "ref": "Rennie",
+      "pred": "Rennie",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8993137003797",
+      "ref": "Wardah",
+      "pred": "Wardah",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "3564700117194",
+      "ref": "Marque Rep\u00e8re",
+      "pred": "Dentamyl",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8710537040166",
+      "ref": "Prevalin",
+      "pred": "Prevulin",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "4001638095112",
+      "ref": "Weleda",
+      "pred": "Weleda",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "3600521055816",
+      "ref": "L'Or\u00e9al",
+      "pred": "L'Or\u00e9al Paris",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "3337875597388",
+      "ref": "CeraVe",
+      "pred": "CeraVe",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "4001638088138",
+      "ref": "Weleda",
+      "pred": "Weleda",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "5054563242785",
+      "ref": "Parodontax",
+      "pred": "parox",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "0603084459490",
+      "ref": "Garnier",
+      "pred": "Garnier",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8480012043066",
+      "ref": "Unnia",
+      "pred": "La Vunnia",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "7630028604077",
+      "ref": "Belherbal",
+      "pred": "Belherbal",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "4005900939777",
+      "ref": "Nivea",
+      "pred": "NIVEA",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "00085730",
+      "ref": "Bakker",
+      "pred": "The Body Shop",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "4066447945072",
+      "ref": "Balea",
+      "pred": "Balea",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "3560071256203",
+      "ref": "Carrefour",
+      "pred": "Multi Action",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8904482501357",
+      "ref": "Pilgrim",
+      "pred": "brilgrim",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8700216318358",
+      "ref": "Head",
+      "pred": "Julep",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8001090787217",
+      "ref": "Gillette",
+      "pred": "Gillette",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8714789700045",
+      "ref": "Palmolive",
+      "pred": "Palmolive",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951669017",
+      "ref": "Palmolive",
+      "pred": "Palm Haven",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8718951647619",
+      "ref": "Palmolive",
+      "pred": "Palmolive",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "5029053578804",
+      "ref": "Page",
+      "pred": "Fris & Seymour",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8700216667500",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8700216667104",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8700216667562",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm:12b",
+      "upc": "8700216666985",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "3616307083157",
+      "ref": "Jawhara",
+      "pred": "Jawhara",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "5901887022787",
+      "ref": "Ziaja",
+      "pred": "ziaja",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8411134138927",
+      "ref": "Control",
+      "pred": "L'Or\u00e9al Paris",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "3600524216955",
+      "ref": "L'Or\u00e9al",
+      "pred": "L'OR\u00c9AL",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "5905699596016",
+      "ref": "Korzenie",
+      "pred": "Korzenie",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "7046110075562",
+      "ref": "Jordan",
+      "pred": "Jordan",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "7046110071519",
+      "ref": "Jordan",
+      "pred": "Jordan",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "5029053538426",
+      "ref": "Huggies",
+      "pred": "Mores",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951254183",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951246645",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951268432",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951268425",
+      "ref": "Sanex",
+      "pred": "The Ordinary",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951247024",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951730328",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951730298",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951601888",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951730854",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718114202402",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "59095446",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8720181183805",
+      "ref": "Rexona",
+      "pred": "Renona",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718114202372",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8720181183775",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "59095552",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8713091028724",
+      "ref": "Rennie",
+      "pred": "Rennie",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8993137003797",
+      "ref": "Wardah",
+      "pred": "Ward\u00e1h",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "3564700117194",
+      "ref": "Marque Rep\u00e8re",
+      "pred": "Dentamyl",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8710537040166",
+      "ref": "Prevalin",
+      "pred": "Prevalin",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "4001638095112",
+      "ref": "Weleda",
+      "pred": "Weleda",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "3600521055816",
+      "ref": "L'Or\u00e9al",
+      "pred": "L'OR\u00c9AL PARIS",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "3337875597388",
+      "ref": "CeraVe",
+      "pred": "CeraVe",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "4001638088138",
+      "ref": "Weleda",
+      "pred": "Weleda",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "5054563242785",
+      "ref": "Parodontax",
+      "pred": "parodontax",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "0603084459490",
+      "ref": "Garnier",
+      "pred": "Garnier",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8480012043066",
+      "ref": "Unnia",
+      "pred": "Unnia",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "7630028604077",
+      "ref": "Belherbal",
+      "pred": "Belherbal",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "4005900939777",
+      "ref": "Nivea",
+      "pred": "NIVEA",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "00085730",
+      "ref": "Bakker",
+      "pred": "The Ordinary",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "4066447945072",
+      "ref": "Balea",
+      "pred": "Balea",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "3560071256203",
+      "ref": "Carrefour",
+      "pred": "MULTI ACTION",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8904482501357",
+      "ref": "Pilgrim",
+      "pred": "the pilgrim",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8700216318358",
+      "ref": "Head",
+      "pred": "SENSICARE",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8001090787217",
+      "ref": "Gillette",
+      "pred": "Gillette",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8714789700045",
+      "ref": "Palmolive",
+      "pred": "Palmolive",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951669017",
+      "ref": "Palmolive",
+      "pred": "Palmer's",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8718951647619",
+      "ref": "Palmolive",
+      "pred": "Palmolive",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "5029053578804",
+      "ref": "Page",
+      "pred": "Pampers",
+      "ok": false
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8700216667500",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8700216667104",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8700216667562",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "resale-vlm-v2:12b",
+      "upc": "8700216666985",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "3616307083157",
+      "ref": "Jawhara",
+      "pred": "JAWHARA",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "5901887022787",
+      "ref": "Ziaja",
+      "pred": "ziaja",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8411134138927",
+      "ref": "Control",
+      "pred": "Unknown",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "3600524216955",
+      "ref": "L'Or\u00e9al",
+      "pred": "L'OR\u00c9AL",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "5905699596016",
+      "ref": "Korzenie",
+      "pred": "k myd\u0142o",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "7046110075562",
+      "ref": "Jordan",
+      "pred": "Jordan",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "7046110071519",
+      "ref": "Jordan",
+      "pred": "Jordan",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "5029053538426",
+      "ref": "Huggies",
+      "pred": "Mermaidy",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951254183",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951246645",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951268432",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951268425",
+      "ref": "Sanex",
+      "pred": "Unknown",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951247024",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951730328",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951730298",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951601888",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951730854",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718114202402",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "59095446",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8720181183805",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718114202372",
+      "ref": "Rexona",
+      "pred": "rexona",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8720181183775",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "59095552",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8713091028724",
+      "ref": "Rennie",
+      "pred": "Rennie",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8993137003797",
+      "ref": "Wardah",
+      "pred": "Ward\u00e1h",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "3564700117194",
+      "ref": "Marque Rep\u00e8re",
+      "pred": "Dentamyl",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8710537040166",
+      "ref": "Prevalin",
+      "pred": "Prevalin",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "4001638095112",
+      "ref": "Weleda",
+      "pred": "WELEDA",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "3600521055816",
+      "ref": "L'Or\u00e9al",
+      "pred": "L'OR\u00c9AL EXPERT",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "3337875597388",
+      "ref": "CeraVe",
+      "pred": "CeraVe",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "4001638088138",
+      "ref": "Weleda",
+      "pred": "WELEDA",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "5054563242785",
+      "ref": "Parodontax",
+      "pred": "parodontax",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "0603084459490",
+      "ref": "Garnier",
+      "pred": "Garnier",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8480012043066",
+      "ref": "Unnia",
+      "pred": "l'unnia",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "7630028604077",
+      "ref": "Belherbal",
+      "pred": "Belherbal",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "4005900939777",
+      "ref": "Nivea",
+      "pred": "NIVEA",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "00085730",
+      "ref": "Bakker",
+      "pred": "L.A. Girl",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "4066447945072",
+      "ref": "Balea",
+      "pred": "Balea",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "3560071256203",
+      "ref": "Carrefour",
+      "pred": "MULTI ACTION",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8904482501357",
+      "ref": "Pilgrim",
+      "pred": "pilgrim",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8700216318358",
+      "ref": "Head",
+      "pred": "S.C. Johnson",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8001090787217",
+      "ref": "Gillette",
+      "pred": "Gillette",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8714789700045",
+      "ref": "Palmolive",
+      "pred": "PALMOLIVE",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951669017",
+      "ref": "Palmolive",
+      "pred": "PALM BEACH",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8718951647619",
+      "ref": "Palmolive",
+      "pred": "PALMOLIVE",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "5029053578804",
+      "ref": "Page",
+      "pred": "Paige",
+      "ok": false
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8700216667500",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8700216667104",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8700216667562",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "gemma4:12b",
+      "upc": "8700216666985",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "3616307083157",
+      "ref": "Jawhara",
+      "pred": "Jawhara",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "5901887022787",
+      "ref": "Ziaja",
+      "pred": "Ziaja",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8411134138927",
+      "ref": "Control",
+      "pred": "Control Nature",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "3600524216955",
+      "ref": "L'Or\u00e9al",
+      "pred": "L'Oreal Paris Excellence Creme",
+      "ok": false
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "5905699596016",
+      "ref": "Korzenie",
+      "pred": "Korzenie",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "7046110075562",
+      "ref": "Jordan",
+      "pred": "Jordan",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "7046110071519",
+      "ref": "Jordan",
+      "pred": "Jordan*",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "5029053538426",
+      "ref": "Huggies",
+      "pred": "Huggies Little Swimmers with Finding Dory",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951254183",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951246645",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951268432",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951268425",
+      "ref": "Sanex",
+      "pred": "The Body Shop",
+      "ok": false
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951247024",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951730328",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951730298",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951601888",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951730854",
+      "ref": "Sanex",
+      "pred": "Sanex",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718114202402",
+      "ref": "Rexona",
+      "pred": "Rexona Men",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "59095446",
+      "ref": "Rexona",
+      "pred": "Rexona Men",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8720181183805",
+      "ref": "Rexona",
+      "pred": "Rexona Men",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718114202372",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8720181183775",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "59095552",
+      "ref": "Rexona",
+      "pred": "Rexona",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8713091028724",
+      "ref": "Rennie",
+      "pred": "Rennie",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8993137003797",
+      "ref": "Wardah",
+      "pred": "Wardah",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "3564700117194",
+      "ref": "Marque Rep\u00e8re",
+      "pred": "Dentamyl",
+      "ok": false
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8710537040166",
+      "ref": "Prevalin",
+      "pred": "Prevalin",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "4001638095112",
+      "ref": "Weleda",
+      "pred": "Weleda",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "3600521055816",
+      "ref": "L'Or\u00e9al",
+      "pred": "L'Oreal Men Expert",
+      "ok": false
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "3337875597388",
+      "ref": "CeraVe",
+      "pred": "CeraVe",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "4001638088138",
+      "ref": "Weleda",
+      "pred": "Weleda baby",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "5054563242785",
+      "ref": "Parodontax",
+      "pred": "parodontax",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "0603084459490",
+      "ref": "Garnier",
+      "pred": "Garnier Whole Blends Honey Treasures",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8480012043066",
+      "ref": "Unnia",
+      "pred": "Unnia",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "7630028604077",
+      "ref": "Belherbal",
+      "pred": "Belherbal",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "4005900939777",
+      "ref": "Nivea",
+      "pred": "Nivea",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "00085730",
+      "ref": "Bakker",
+      "pred": "The Body Shop",
+      "ok": false
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "4066447945072",
+      "ref": "Balea",
+      "pred": "Balea",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "3560071256203",
+      "ref": "Carrefour",
+      "pred": "Soft",
+      "ok": false
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8904482501357",
+      "ref": "Pilgrim",
+      "pred": "Pilgrim",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8700216318358",
+      "ref": "Head",
+      "pred": "Head & Shoulders",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8001090787217",
+      "ref": "Gillette",
+      "pred": "Gillette",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8714789700045",
+      "ref": "Palmolive",
+      "pred": "Palmolive",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951669017",
+      "ref": "Palmolive",
+      "pred": "Palmolive Naturals",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8718951647619",
+      "ref": "Palmolive",
+      "pred": "Palmolive",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "5029053578804",
+      "ref": "Page",
+      "pred": "Page",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8700216667500",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8700216667104",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8700216667562",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    },
+    {
+      "model": "qwen3.5:27b",
+      "upc": "8700216666985",
+      "ref": "Oral-B",
+      "pred": "Oral-B",
+      "ok": true
+    }
+  ]
+}

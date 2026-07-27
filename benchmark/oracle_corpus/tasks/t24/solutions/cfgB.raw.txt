@@ -1,0 +1,41 @@
+```python
+def label_regions(grid):
+    def dfs(x, y, value):
+        if 0 <= x < len(grid) and 0 <= y < len(grid[0]) and grid[x][y] == value:
+            grid[x][y] = -value + 1
+            for dx, dy in [(0, 1), (1, 0), (-1, 0), (0, -1)]:
+                dfs(x + dx, y + dy, value)
+
+    regions = {}
+    for i in range(len(grid)):
+        for j in range(len(grid[0])):
+            if grid[i][j] > 0 and grid[i][j] not in regions:
+                label = len(regions) + 1
+                regions[grid[i][j]] = label
+                dfs(i, j, grid[i][j])
+    
+    for i in range(len(grid)):
+        for j in range(len(grid[0])):
+            if grid[i][j] > 0:
+                grid[i][j] = regions[grid[i][j]]
+    
+    return grid
+
+# Example usage:
+def check_solution():
+    grid1 = [[1, 1, 0],
+             [0, 1, 2],
+             [2, 2, 2]]
+    assert label_regions(grid1) == [[1, 1, 0],
+                                     [0, 1, 2],
+                                     [2, 2, 2]]
+
+    grid2 = [[5, 0, 5],
+             [0, 5, 0],
+             [5, 0, 5]]
+    assert label_regions(grid2) == [[-3, -4, -3],
+                                    [-4, -3, -4],
+                                    [-3, -4, -3]]
+
+check_solution()
+```

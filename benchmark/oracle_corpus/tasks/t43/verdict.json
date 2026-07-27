@@ -1,0 +1,13 @@
+{
+  "task_id": "t43",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation from prompt alone passed all 14 tests.",
+    "reference_solution.py passes all 14 tests and is deterministic across two runs.",
+    "broken_solution.py fails 4 and passes 10 (satisfies fail>=1 and pass>=1); its current-reading-in-baseline bug is genuinely caught.",
+    "Sneaky-wrong attacks (non-strict >=, wrong median index, mean-not-median, skip-first-eligible i>window, baseline shifted one older, missing even-window validation) were ALL caught; the only passing variant (loop start window-1) is spec-equivalent due to its length guard, not a real defect.",
+    "Static checks pass: tests import solution not the reference; stdlib-only solutions; no time/network/filesystem/env access in tests; random is seeded random.Random(430430) inside the property loop; runtime ~0.01s < 5s; 13 assert statements + 3 pytest.raises = 16 checks (>=8); test_property_matches_brute_force is a property-style test over 300 random cases; prompt never mentions tests/grading; difficulty medium is sane; not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

@@ -1,0 +1,23 @@
+def canonicalize_tags(raw: list[str]) -> list[str]:
+    seen = set()
+    result = []
+    
+    for tag in raw:
+        # Step 1: Trim leading and trailing whitespace
+        trimmed_tag = tag.strip()
+        
+        # Step 2: Lowercase all ASCII uppercase letters
+        lowercased_tag = trimmed_tag.lower()
+        
+        # Step 3: Collapse internal whitespace
+        import re
+        collapsed_tag = re.sub(r'\s+', ' ', lowercased_tag)
+        
+        # Drop blank tags
+        if collapsed_tag:
+            # Check for duplicates and maintain order of first appearance
+            if collapsed_tag not in seen:
+                seen.add(collapsed_tag)
+                result.append(collapsed_tag)
+    
+    return result

@@ -1,0 +1,13 @@
+```python
+def order_roster(employees):
+    # Sort employees by department first, then by salary in descending order.
+    # If departments are the same, sort by name in ascending order.
+    return sorted(
+        employees,
+        key=lambda employee: (
+            employee["dept"],
+            -employee["salary"],  # Negative for descending
+            employee["name"]
+        )
+    )
+```

@@ -1,0 +1,13 @@
+{
+  "task_id": "t12",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 18 tests deterministically across two runs",
+    "broken_solution.py fails 3 (touching-interval join bug: strict '<' in normalize) and passes 15",
+    "my independent blind solution passes all 18 tests",
+    "sneaky-wrong attack (peak_depth event tie-break processing +1 before -1, inflating depth at touching boundaries) was CAUGHT: fails both bruteforce property tests",
+    "static: imports 'solution', stdlib only (random), deterministic seeds, <5s, many asserts, two property-style tests incl. half-integer float grid, prompt never mentions tests"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

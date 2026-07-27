@@ -1,0 +1,13 @@
+{
+  "task_id": "t24",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation (BFS row-major flood fill written from prompt alone) passed all 13 tests.",
+    "reference_solution.py passed all 13 tests on two consecutive runs (deterministic, identical outcome).",
+    "broken_solution.py (column-major scan) failed 3 tests and passed 10 (satisfies fail>=1, pass>=1).",
+    "Sneaky-wrong attacks all caught: 8-connectivity caught by example-2 + property test; input mutation caught by test_does_not_mutate_input; value-based label ordering caught by adjacent-different-values + property test.",
+    "Static checks clean: tests import 'solution'; stdlib-only; no network/time/os/env/fs; random used only inside seeded property loop (Random(13337)); 15 assertions across 13 tests including a 120-grid property test; runtime ~0.02s (<5s); prompt.md never mentions tests/grading; difficulty 'hard' is sane; not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

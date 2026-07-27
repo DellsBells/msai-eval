@@ -1,0 +1,32 @@
+def capped_keystroke_distance(a: str, b: str, cap: int) -> int:
+    m, n = len(a), len(b)
+    
+    # If the difference in length is greater than cap, return -1 immediately
+    if abs(m - n) > cap:
+        return -1
+    
+    # Initialize a 2D array to store distances
+    dp = [[0] * (n + 1) for _ in range(m + 1)]
+    
+    # Base cases: transforming empty string to b or a to empty string
+    for i in range(1, m + 1):
+        dp[i][0] = i
+    for j in range(1, n + 1):
+        dp[0][j] = j
+    
+    # Fill the dp array
+    for i in range(1, m + 1):
+        for j in range(1, n + 1):
+            if a[i - 1] == b[j - 1]:
+                dp[i][j] = dp[i - 1][j - 1]
+            else:
+                dp[i][j] = min(dp[i - 1][j] + 1,    # delete
+                               dp[i][j - 1] + 1,    # insert
+                               dp[i - 1][j - 1] + 2) # substitute
+            
+            # If the distance exceeds cap, set it to a large number
+            if dp[i][j] > cap:
+                dp[i][j] = float('inf')
+    
+    # The result is in dp[m][n], check if it's within the cap
+    return dp[m][n] if dp[m][n] != float('inf') else -1

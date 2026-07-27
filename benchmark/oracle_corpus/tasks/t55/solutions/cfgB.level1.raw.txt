@@ -1,0 +1,37 @@
+```python
+def pass_token(n, rounds, step, quota):
+    """
+    Simulates a token passing ring where tokens are passed around in a circular manner.
+    
+    Parameters:
+        n: Number of participants in the ring.
+        rounds: Total number of passes to simulate.
+        step: Number of steps for each pass (how many positions the token skips).
+        quota: The number of passes required by a participant before they can claim it.
+
+    Returns:
+        A list indicating which participant has passed how many times. Each element in the returned
+        list represents one participant, and its value indicates the number of times that participant 
+        has passed the token.
+        
+    Example usage:
+        pass_token(5, 10, 2, 3) might return [0, 1, 0, 1, 0] indicating only participants at positions
+        1 and 4 have passed the token more than twice in ten passes.
+    """
+    # Initialize a list to keep track of how many times each participant has passed the token
+    pass_counts = [0 for _ in range(n)]
+    
+    # Simulate the token passing process
+    for i in range(rounds):
+        current_index = (i // step) % n  # Determine which participant is currently holding the token
+        
+        if i >= quota * n:  # If more passes than required by any participant have occurred, break out of loop
+            break
+            
+        pass_counts[current_index] += 1
+    
+    return pass_counts
+
+# Example usage:
+print(pass_token(5, 10, 2, 3))  # Output might vary based on the number of rounds and step size
+```

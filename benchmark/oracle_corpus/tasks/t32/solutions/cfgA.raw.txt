@@ -1,0 +1,61 @@
+```python
+def to_balanced_ternary(n: int) -> list[int]:
+    if n == 0:
+        return [0]
+    digits = []
+    while n != 0:
+        n, remainder = divmod(n, 3)
+        if remainder == 2:
+            remainder = -1
+            n += 1
+        digits.append(remainder)
+    return digits[::-1]
+
+def from_balanced_ternary(digits: list[int]) -> int:
+    result = 0
+    for digit in digits:
+        result = result * 3 + digit
+    return result
+
+def add_balanced_ternary(a: list[int], b: list[int]) -> list[int]:
+    a = a[::-1]
+    b = b[::-1]
+    max_len = max(len(a), len(b))
+    a += [0] * (max_len - len(a))
+    b += [0] * (max_len - len(b))
+    
+    result = []
+    carry = 0
+    for i in range(max_len):
+        total = a[i] + b[i] + carry
+        if total == -3:
+            digit = 0
+            carry = -1
+        elif total == -2:
+            digit = 1
+            carry = -1
+        elif total == -1:
+            digit = -1
+            carry = 0
+        elif total == 0:
+            digit = 0
+            carry = 0
+        elif total == 1:
+            digit = 1
+            carry = 0
+        elif total == 2:
+            digit = -1
+            carry = 1
+        elif total == 3:
+            digit = 0
+            carry = 1
+        result.append(digit)
+    
+    if carry != 0:
+        result.append(carry)
+    
+    while len(result) > 1 and result[-1] == 0:
+        result.pop()
+    
+    return result[::-1]
+```

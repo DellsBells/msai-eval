@@ -1,0 +1,111 @@
+{
+  "tiers": {
+    "resolve": {
+      "n_live": 3,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": 2.463,
+      "delta": 2.462962962962963,
+      "beyond_gauge": true,
+      "significant": true,
+      "qualified": true,
+      "guard_band": 1.077945,
+      "repro_sd": 0.1702,
+      "repro_ok": true,
+      "verdict": "REAL gain (beyond gauge resolution)",
+      "gauge_warnings": [
+        "few_judges_coarse_ci",
+        "ndc=4 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ],
+      "notes": []
+    },
+    "mid": {
+      "n_live": 3,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": 1.907,
+      "delta": 1.9074074074074074,
+      "beyond_gauge": true,
+      "significant": true,
+      "qualified": true,
+      "guard_band": 1.444929,
+      "repro_sd": 0.292,
+      "repro_ok": true,
+      "verdict": "REAL gain (beyond gauge resolution)",
+      "gauge_warnings": [
+        "few_judges_coarse_ci",
+        "ndc=3 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ],
+      "notes": []
+    },
+    "below": {
+      "n_live": 3,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": 1.87,
+      "delta": 1.8703703703703702,
+      "beyond_gauge": true,
+      "significant": true,
+      "qualified": true,
+      "guard_band": 1.09,
+      "repro_sd": 0.2002,
+      "repro_ok": true,
+      "verdict": "REAL gain (beyond gauge resolution)",
+      "gauge_warnings": [
+        "few_judges_coarse_ci",
+        "ndc=4 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ],
+      "notes": []
+    },
+    "sham": {
+      "n_live": 3,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": -0.0,
+      "delta": 0.0,
+      "beyond_gauge": false,
+      "significant": false,
+      "qualified": true,
+      "guard_band": 1.328952,
+      "repro_sd": 0.3146,
+      "repro_ok": true,
+      "verdict": "within noise (indistinguishable on this gauge)",
+      "gauge_warnings": [
+        "few_judges_coarse_ci",
+        "ndc=1 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ],
+      "notes": []
+    }
+  },
+  "perceived_ladder": [
+    2.463,
+    1.907,
+    1.87,
+    -0.0
+  ],
+  "checks": {
+    "manipulation_monotone": true,
+    "resolve_resolves": true,
+    "below_real_but_below": false,
+    "sham_within_noise": true
+  },
+  "GATE_PASS": true,
+  "PASS": false,
+  "judges": [
+    "gemma4:12b",
+    "qwen3.5:27b",
+    "qwen3.6:35b-mlx"
+  ]
+}

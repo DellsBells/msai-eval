@@ -1,0 +1,13 @@
+{
+  "task_id": "t49",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 15 tests deterministically across two runs",
+    "broken_solution.py (ignores unpaired trailing chars) fails 6 and passes 9",
+    "my independent blind solution passed the full suite",
+    "sneaky-wrong attack (space-pad shorter string, so trailing spaces wrongly match padding) was CAUGHT by test_trailing_whitespace_counts_as_difference and the independent-reference property test",
+    "static: imports 'solution', stdlib only (random), deterministic seeded, <5s, 15 tests with many asserts, 3 property-style tests (symmetry, upper-bound, independent-reference with distinct whitespace chars), prompt never mentions tests, task is a from-scratch named variant not a verbatim classic"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

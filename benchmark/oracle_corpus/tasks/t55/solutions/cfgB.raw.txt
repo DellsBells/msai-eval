@@ -1,0 +1,30 @@
+```python
+def pass_token(n, rounds, step, quota):
+    """
+    Simulates passing a token around in a ring of 'n' participants.
+    
+    :param n: Number of participants in the ring.
+    :param rounds: Total number of rounds to simulate.
+    :param step: Step size for moving the token forward in each round.
+    :param quota: The number that determines when a participant can take action.
+
+    Returns:
+        A list where each element represents the current position of the token after all rounds,
+        with indices indicating the participants and values indicating their order in the ring.
+    """
+    # Initialize the list to represent the ring
+    token_position = [0] * n
+    
+    for _ in range(rounds):
+        # Move the token 'step' positions forward
+        current_pos = (token_position[0] + step) % n
+        
+        # Check if it's time for a participant to take action based on quota
+        if current_pos == 0 and sum(token_position) >= quota:
+            token_position[current_pos] += 1
+    
+    return token_position
+
+# Example usage
+print(pass_token(4, 3, 1, 99))
+```

@@ -1,0 +1,34 @@
+```python
+def longest_shared_run(a: str, b: str) -> tuple[int, int]:
+    def shared_run_length(start_a, start_b):
+        run_length = 0
+        while True:
+            index_a = a.find(a[start_a], start_a)
+            if index_a == -1:
+                break
+            index_b = b.find(b[start_b], start_b)
+            if index_b == -1:
+                break
+            run_length += 1
+            start_a, start_b = index_a + 1, index_b + 1
+        return run_length
+
+    max_length_a, max_length_b = 0, 0
+    for i in range(len(a)):
+        length_a = shared_run_length(i, 0)
+        if length_a > max_length_a:
+            max_length_a = length_a
+        length_b = shared_run_length(0, i)
+        if length_b > max_length_b:
+            max_length_b = length_b
+
+    return (max_length_a, max_length_b)
+
+# Example usage
+print(longest_shared_run("abcdef", "zzcdezz"))  # -> (3, 2)   run "cde" starts at index 2 in a
+print(longest_shared_run("abcxyz", "xyzabc"))    # -> (3, 0)   "abc" and "xyz" tie; "abc" starts earlier in a
+print(longest_shared_run("hello", "world"))      # -> (1, 2)   "l" is the longest shared run; left-most 'l' in "hello" is index 2
+print(longest_shared_run("same", "same"))        # -> (4, 0)
+print(longest_shared_run("abc", "xyz"))          # -> (0, 0)   no shared characters
+print(longest_shared_run("", "anything"))        # -> (0, 0)
+```

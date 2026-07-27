@@ -1,0 +1,31 @@
+from collections import deque
+
+def generations(graph: dict) -> list | None:
+    if not graph:
+        return []
+
+    # Find all leaves for starting the topological sort
+    leaves = [node for node in graph.keys() if len(graph[node]) == 0]
+
+    result = []
+    while leaves:
+        new_leaves = []
+        for leaf in leaves:
+            result.append(leaf)
+            for neighbor in graph[leaf]:
+                graph[neighbor].remove(leaf)  # Remove the edge from the node to its parent
+                if not graph[neighbor]:  # If all parents are removed, it becomes a leaf itself
+                    new_leaves.append(neighbor)
+        leaves = new_leaves
+
+    return result[::-1]  # Reverse the order of nodes as we need longest path layers
+
+
+# Example usage:
+graph = {
+    "a": ["b", "c"],
+    "b": ["d"],
+    "c": ["d"],
+    "d": [],
+}
+print(generations(graph))  # Output: ['d', 'b', 'c', 'a']

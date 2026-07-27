@@ -1,0 +1,14 @@
+{
+  "task_id": "t14",
+  "verdict": "PASS",
+  "reasons": [
+    "Reference passes 11/11 twice (deterministic identical outcome).",
+    "Broken solution fails 3 (test_last_friday_2026, test_february_non_leap_last_weekday, test_property_matches_bruteforce) and passes 8 — meets fail>=1 and pass>=1.",
+    "Blind reimplementation (independent calendar-iteration approach) passes 11/11.",
+    "Sneaky-wrong attacks caught: 4th-instead-of-last for n=-1 (#1), off-by-one 7*n (#3), <-vs-<= 5th-day boundary (#4), day-1 offset skip (#5), 2nd-to-last tie for 5-occurrence months (#6) all fail the property test plus targeted boundary tests.",
+    "The only sneaky variant that passed (positive-n overflow clamps instead of skipping) is provably behaviorally identical to the reference on the entire valid domain: n is constrained to {1,2,3,4,-1} and every month has >=4 of each weekday, so the overflow branch is dead code — not a genuine spec violation.",
+    "Static checks pass: tests import 'solution'; stdlib only; no time/network/fs/env; random is seeded (random.Random(99)) inside a brute-force property loop; 11 assertions (>=8); property-style brute-force test present; prompt never mentions tests/grading; difficulty 'medium' is sane; runtime ~0.02s (<5s); not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

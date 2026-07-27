@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+.claude/
+*.log
+benchmark/anchor/history.jsonl
+benchmark/anchor/ALARM.json
+.DS_Store
+# API keys for the frontier run — NEVER commit. Burn the keys after the run.
+.env
+*.env
+benchmark/.env

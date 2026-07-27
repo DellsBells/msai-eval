@@ -1,0 +1,21 @@
+from datetime import date, timedelta
+
+def nth_weekday_dates(year: int, weekday: int, n: int) -> list[str]:
+    dates = []
+    # Adjusting for the first day of the year to get the correct starting point.
+    start_date = date(year, 1, 1)
+    
+    while len(dates) < n:
+        # Finding the nth occurrence of the given weekday in a month
+        next_weekday = start_date + timedelta(days=7 - start_date.weekday())
+        
+        for _ in range(4):  # Looping through all months.
+            if next_weekday.year == year and next_weekday.month <= 12:
+                dates.append(next_weekday.strftime('%Y-%m-%d'))
+                break
+            next_weekday += timedelta(days=7)
+    
+    return dates
+
+# Example usage:
+print(nth_weekday_dates(2023, 1, 4))  # Fourth Monday of the year.

@@ -1,0 +1,54 @@
+```python
+def to_balanced_ternary(n: int) -> list[int]:
+    if n == 0:
+        return [0]
+    
+    result = []
+    while abs(n) > 0:
+        remainder = n % -3
+        n //= -3
+        
+        # Adjust for negative remainders
+        if remainder < -1:
+            remainder += 3
+            n -= 1
+            
+        result.append(remainder)
+    
+    return list(reversed(result))
+
+def from_balanced_ternary(lst: list[int]) -> int:
+    return sum(val * (pow(-3, i)) for i, val in enumerate(lst[::-1]))
+
+def add_balanced_ternary(a: list[int], b: list[int]) -> list[int]:
+    carry = 0
+    result = []
+    
+    for i in range(max(len(a), len(b))):
+        if i < len(a):
+            carry += a[i]
+        
+        if i < len(b):
+            carry += b[i]
+        
+        digit, carry = divmod(carry, -3)
+        
+        # Adjust for negative digits
+        if digit > 2:
+            digit -= 3
+            carry += 1
+        
+        result.append(digit)
+    
+    while carry != 0:
+        digit, carry = divmod(carry + result[-1], -3)
+        
+        # Adjust for negative digits
+        if digit > 2:
+            digit -= 3
+            carry += 1
+        
+        result.append(digit)
+    
+    return list(reversed(result))
+```

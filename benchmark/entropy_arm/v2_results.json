@@ -1,0 +1,58 @@
+{
+ "n_rows": 768,
+ "classes": {
+  "VALID_ANSWER": 498,
+  "FABRICATED_ANSWER": 22,
+  "CORRECT_ABSTENTION": 237,
+  "FALSE_ABSTENTION": 2,
+  "MALFORMED_OR_INDETERMINATE": 9
+ },
+ "cells": {
+  "qwen2.5vl:7b|A": {
+   "abstention_rate": 0.286,
+   "PFA_unsupported": "9/64",
+   "PFR_supported": "1/128",
+   "malformed": 5,
+   "copy": 74,
+   "derive": 46
+  },
+  "qwen2.5vl:7b|B": {
+   "abstention_rate": 0.292,
+   "PFA_unsupported": "8/64",
+   "PFR_supported": "1/128",
+   "malformed": 4,
+   "copy": 77,
+   "derive": 45
+  },
+  "gemma4:12b|A": {
+   "abstention_rate": 0.333,
+   "PFA_unsupported": "0/64",
+   "PFR_supported": "0/128",
+   "malformed": 0,
+   "copy": 95,
+   "derive": 33
+  },
+  "gemma4:12b|B": {
+   "abstention_rate": 0.333,
+   "PFA_unsupported": "0/64",
+   "PFR_supported": "0/128",
+   "malformed": 0,
+   "copy": 94,
+   "derive": 34
+  }
+ },
+ "pooled": {
+  "P1_auc_dispersion": {
+   "auc": null,
+   "n_fab_cells": 0,
+   "n_valid_cells": 64,
+   "perm_p": null
+  },
+  "P2_auc_logprob": {
+   "auc": 0.844,
+   "n_valid": 498,
+   "n_fab": 5,
+   "perm_p": 0.0031
+  }
+ }
+}

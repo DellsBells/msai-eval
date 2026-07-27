@@ -1,0 +1,13 @@
+{
+  "task_id": "t08",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 15 tests deterministically across two runs",
+    "broken_solution.py fails 2 (test_escapes_in_quotes, test_property_roundtrip_generated) and passes 13 -- satisfies fail>=1 AND pass>=1",
+    "my independent blind solution passes all 15 tests",
+    "sneaky-wrong attack (duplicate nested records MERGE instead of last-wins replace) was CAUGHT: fails test_duplicate_dict_last_wins_no_merge and the property test",
+    "static: imports 'solution', stdlib only (random), deterministic seed, <5s, >=8 asserts, property-style test present, prompt never mentions tests, not a verbatim classic"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

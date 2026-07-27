@@ -1,0 +1,637 @@
+{
+  "prereg_sha256": "19bdfc445742a2ca3970f82ac84350519a55ce99bf6fe10c137533381d614cd5",
+  "ledger_revision": 2,
+  "tasks": {
+    "t01": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.16,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.16s)",
+        "5/5 files present"
+      ]
+    },
+    "t02": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t03": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t04": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.16,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.16s)",
+        "5/5 files present"
+      ]
+    },
+    "t05": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t06": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.16,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.16s)",
+        "5/5 files present"
+      ]
+    },
+    "t07": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t08": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.17,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.17s)",
+        "5/5 files present"
+      ]
+    },
+    "t09": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t10": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t11": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t12": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t13": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t14": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t15": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t16": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.86,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.86s)",
+        "5/5 files present"
+      ]
+    },
+    "t17": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t18": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t19": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t20": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t21": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t22": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t23": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t24": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t25": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t26": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t27": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t28": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t29": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t30": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t31": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t32": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.17,
+      "verifier_reasons": [
+        "verdict=PASS (re-verified rev2)",
+        "smoke exit 0 (0.17s)",
+        "5/5 files present"
+      ]
+    },
+    "t33": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS (re-verified rev2)",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t34": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t35": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t36": {
+      "status": "DROPPED",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": null,
+      "verifier_reasons": [
+        "verdict=FAIL",
+        "sneaky-wrong attack passes hidden tests (home-only head-to-head accumulation slips through); suite lacks an away-team h2h-decided tie case",
+        "not fed to oracle"
+      ]
+    },
+    "t37": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS (re-verified rev2)",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t38": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS (re-verified rev2)",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t39": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t40": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.19,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.19s)",
+        "5/5 files present"
+      ]
+    },
+    "t41": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t42": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t43": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t44": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t45": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t46": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t47": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "analysis",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t48": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "analysis",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t49": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "pilot",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t50": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "pilot",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t51": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "pilot",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t52": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "pilot",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t53": {
+      "status": "PASS",
+      "difficulty": "easy",
+      "split": "pilot",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t54": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "pilot",
+      "smoke_seconds": 0.14,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.14s)",
+        "5/5 files present"
+      ]
+    },
+    "t55": {
+      "status": "PASS",
+      "difficulty": "medium",
+      "split": "pilot",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    },
+    "t56": {
+      "status": "PASS",
+      "difficulty": "hard",
+      "split": "pilot",
+      "smoke_seconds": 0.15,
+      "verifier_reasons": [
+        "verdict=PASS",
+        "smoke exit 0 (0.15s)",
+        "5/5 files present"
+      ]
+    }
+  },
+  "counts": {
+    "total_dirs": 56,
+    "pass": 55,
+    "dropped": 1,
+    "difficulty": {
+      "easy": 14,
+      "medium": 28,
+      "hard": 13
+    },
+    "split": {
+      "analysis": 47,
+      "pilot": 8
+    }
+  },
+  "clean": true
+}

@@ -1,0 +1,20 @@
+from collections import defaultdict
+
+def prune(tree, max_depth):
+    def _prune(node, depth=0):
+        if "children" in node:
+            for child in node["children"]:
+                _prune(child, depth + 1)
+        else:
+            del node["children"]
+        return
+
+    def collapse_empty_dirs(node):
+        if not any("children" in ch for ch in node.get("children", [])):
+            del node
+        elif "children" in node:
+            for child in node["children"]:
+                collapse_empty_dirs(child)
+
+    _prune(tree, 0)
+    collapse_empty_dirs(tree)

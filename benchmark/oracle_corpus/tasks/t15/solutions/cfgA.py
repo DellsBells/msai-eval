@@ -1,0 +1,14 @@
+def iso_week_counts(dates: list[str]) -> list[tuple[str, int]]:
+    from datetime import date
+    from collections import defaultdict
+
+    week_count = defaultdict(int)
+
+    for date_str in dates:
+        year, month, day = map(int, date_str.split('-'))
+        dt = date(year, month, day)
+        iso_year, iso_week, _ = dt.isocalendar()
+        key = f"{iso_year:04d}-W{iso_week:02d}"
+        week_count[key] += 1
+
+    return sorted(week_count.items())

@@ -1,0 +1,1 @@
+{"task_id": "t16", "verdict": "PASS", "blind_impl_passed": true, "sneaky_wrong_caught": true, "reasons": ["reference passes twice (16/16, deterministic)","broken fails 5 passes 11","blind solution passes 16/16","sneaky-wrong (midpoint overlap check) caught with 4 failures","stdlib-only, seeded-deterministic, <5s, 17 asserts, 2 property tests, prompt does not mention tests"]}

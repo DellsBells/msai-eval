@@ -1,0 +1,62 @@
+{
+ "task": "t05",
+ "gen": {
+  "A": {
+   "model": "(persisted)",
+   "code_chars": 404
+  },
+  "B": {
+   "model": "qwen2.5vl:7b",
+   "code_chars": 375
+  }
+ },
+ "oracle": {
+  "A": {
+   "pass_rate": 0.9166666666666666,
+   "all_pass": false,
+   "replication_ok": true
+  },
+  "B": {
+   "pass_rate": 0.6666666666666666,
+   "all_pass": false,
+   "replication_ok": true
+  }
+ },
+ "judge": {
+  "A": {
+   "gemma4:12b": [
+    2.0,
+    "2"
+   ],
+   "llama3.2-vision:11b": null,
+   "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M": [
+    5.0,
+    "5"
+   ],
+   "minicpm-v:latest": [
+    4.0,
+    "4"
+   ]
+  },
+  "B": {
+   "gemma4:12b": [
+    2.0,
+    "2"
+   ],
+   "llama3.2-vision:11b": null,
+   "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M": [
+    2.0,
+    "2"
+   ],
+   "minicpm-v:latest": [
+    4.0,
+    "4"
+   ]
+  }
+ },
+ "excluded_judges": {
+  "llama3.2-vision:11b": "HTTP Error 500: Internal Server Error"
+ },
+ "panel_J": 3,
+ "oracle_gap_g": 0.25
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "t35",
+  "verdict": "PASS",
+  "reasons": [
+    "Reference solution passes all 12 tests on two consecutive runs (deterministic, identical 12-passed outcome).",
+    "Broken solution fails 4 tests (example_2 tie-break, mixed_directions, full_tie_all_keys_equal_stable, property) and passes 8 - satisfies fail>=1/pass>=1.",
+    "Blind reimplementation (successive stable sorts least-to-most-significant with per-key reverse=) passes all 12 tests; an initial 'no attribute multisort' failure was a clobbered scratch-path file, not a logic bug, and the correct path passed cleanly.",
+    "Three sneaky-wrong attacks all caught: (1) index tie-break flipped when last key is desc -> caught by full_tie + property; (2) composite-key reverse when all keys desc -> caught by full_tie + property; (3) lazy ValueError validation -> caught by test_invalid_direction_raises which uses single-record input where no comparison runs.",
+    "Static checks pass: tests import 'solution' not the reference; stdlib only (functools/random/pytest); random used only as a seeded property loop (random.Random(98765)); no os/sys/network/filesystem/env access; runtime ~0.01-0.04s (<5s); 19 assert/pytest.raises across 12 tests (>=8); property-style test present (400 trials vs independent cmp_to_key oracle); prompt.md never mentions tests/grading; meta difficulty 'medium' is sane; distinctive direction-independent ascending tie-break, not a verbatim textbook classic.",
+    "The spec-critical subtlety (final tie-break always ascending by input index regardless of key directions) has a dedicated all-desc test and is enforced by the property oracle across 400 randomized cases."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

@@ -1,0 +1,10 @@
+def rotate_quarters(matrix, k):
+    if not matrix:
+        return []
+    
+    k = k % 4
+    
+    for _ in range(k):
+        matrix = [list(reversed(col)) for col in zip(*matrix)]
+    
+    return matrix

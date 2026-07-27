@@ -1,0 +1,338 @@
+[
+{
+"config": "full",
+"item": 0,
+"judge": "qwen2.5vl:7b",
+"trial": 0,
+"attrs": [
+0,
+0,
+1,
+1,
+1,
+0
+]
+},
+{
+"config": "full",
+"item": 0,
+"judge": "gemma4:12b",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+1,
+1,
+1
+]
+},
+{
+"config": "full",
+"item": 0,
+"judge": "gemma4:31b-mlx",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+1,
+1,
+1
+]
+},
+{
+"config": "full",
+"item": 1,
+"judge": "qwen2.5vl:7b",
+"trial": 0,
+"attrs": [
+0,
+0,
+0,
+0,
+1,
+0
+]
+},
+{
+"config": "full",
+"item": 1,
+"judge": "gemma4:12b",
+"trial": 0,
+"attrs": [
+1,
+1,
+1,
+1,
+1,
+1
+]
+},
+{
+"config": "full",
+"item": 1,
+"judge": "gemma4:31b-mlx",
+"trial": 0,
+"attrs": [
+1,
+1,
+1,
+1,
+1,
+1
+]
+},
+{
+"config": "full2",
+"item": 0,
+"judge": "qwen2.5vl:7b",
+"trial": 0,
+"attrs": [
+0,
+0,
+0,
+0,
+0,
+0
+]
+},
+{
+"config": "full2",
+"item": 0,
+"judge": "gemma4:12b",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+1,
+1,
+1
+]
+},
+{
+"config": "full2",
+"item": 0,
+"judge": "gemma4:31b-mlx",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+1,
+1,
+1
+]
+},
+{
+"config": "full2",
+"item": 1,
+"judge": "qwen2.5vl:7b",
+"trial": 0,
+"attrs": [
+0,
+0,
+1,
+0,
+1,
+0
+]
+},
+{
+"config": "full2",
+"item": 1,
+"judge": "gemma4:12b",
+"trial": 0,
+"attrs": [
+1,
+1,
+1,
+1,
+1,
+1
+]
+},
+{
+"config": "full2",
+"item": 1,
+"judge": "gemma4:31b-mlx",
+"trial": 0,
+"attrs": [
+1,
+1,
+1,
+1,
+1,
+1
+]
+},
+{
+"config": "mid",
+"item": 0,
+"judge": "qwen2.5vl:7b",
+"trial": 0,
+"attrs": [
+0,
+0,
+1,
+1,
+1,
+1
+]
+},
+{
+"config": "mid",
+"item": 0,
+"judge": "gemma4:12b",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+1,
+1,
+1
+]
+},
+{
+"config": "mid",
+"item": 0,
+"judge": "gemma4:31b-mlx",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+1,
+0,
+1
+]
+},
+{
+"config": "mid",
+"item": 1,
+"judge": "qwen2.5vl:7b",
+"trial": 0,
+"attrs": [
+0,
+0,
+1,
+0,
+1,
+1
+]
+},
+{
+"config": "mid",
+"item": 1,
+"judge": "gemma4:12b",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+0,
+1,
+1
+]
+},
+{
+"config": "mid",
+"item": 1,
+"judge": "gemma4:31b-mlx",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+0,
+0,
+0
+]
+},
+{
+"config": "stub",
+"item": 0,
+"judge": "qwen2.5vl:7b",
+"trial": 0,
+"attrs": [
+0,
+0,
+1,
+0,
+1,
+0
+]
+},
+{
+"config": "stub",
+"item": 0,
+"judge": "gemma4:12b",
+"trial": 0,
+"attrs": [
+1,
+1,
+0,
+1,
+1,
+1
+]
+},
+{
+"config": "stub",
+"item": 0,
+"judge": "gemma4:31b-mlx",
+"trial": 0,
+"attrs": [
+0,
+1,
+0,
+0,
+0,
+0
+]
+},
+{
+"config": "stub",
+"item": 1,
+"judge": "qwen2.5vl:7b",
+"trial": 0,
+"attrs": [
+0,
+0,
+0,
+1,
+1,
+0
+]
+},
+{
+"config": "stub",
+"item": 1,
+"judge": "gemma4:12b",
+"trial": 0,
+"attrs": [
+1,
+1,
+1,
+0,
+1,
+1
+]
+},
+{
+"config": "stub",
+"item": 1,
+"judge": "gemma4:31b-mlx",
+"trial": 0,
+"attrs": [
+1,
+1,
+1,
+0,
+0,
+1
+]
+}
+]

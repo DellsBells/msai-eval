@@ -1,0 +1,16 @@
+def find_fault(s: str) -> int:
+    stack = []
+    matching_bracket = {')': '(', ']': '[', '}': '{'}
+    
+    for i, char in enumerate(s):
+        if char in "([{":
+            stack.append((char, i))
+        elif char in ")]}":
+            if not stack or stack[-1][0] != matching_bracket[char]:
+                return i
+            stack.pop()
+    
+    if stack:
+        return stack[-1][1]
+    
+    return -1

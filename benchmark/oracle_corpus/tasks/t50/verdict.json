@@ -1,0 +1,14 @@
+{
+  "task_id": "t50",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation (independent LCS DP with smallest-start tie-break) passed all 12 tests.",
+    "reference_solution.py passed 12/12 deterministically across two runs.",
+    "broken_solution.py fails 4 (tie-break tests + brute-force property) and passes 8 - satisfies fail>=1 & pass>=1.",
+    "Every PLAUSIBLE sneaky-wrong attack was caught: wrong tie-break direction (last-wins) caught by explicit tie tests + tie-heavy brute-force property test; end-of-a off-by-one caught by identical/case-sensitive/contained tests. A variant using a.find(best_run) turned out to be actually correct (equivalent to spec across ~2M random cases), so not a valid attack.",
+    "Only survivor was an implausible arbitrary 'best_len>50' magic-number cap - not a natural off-by-one/edge-case bug, so it does not meet the 'plausible' bar for a valid sneaky-wrong.",
+    "Static checks pass: tests import solution; stdlib only; no time/network/filesystem/env/subprocess; random used only seeded (4242, 7) inside property loops; 17 assertions (>=8); two property-style tests (brute-force equivalence + run-is-substring invariant); runtime 0.01s (<5s); prompt never mentions tests/grading; difficulty medium is sane; LCS-with-tie-break variant, not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

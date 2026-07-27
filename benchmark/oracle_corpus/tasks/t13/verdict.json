@@ -1,0 +1,15 @@
+{
+  "task_id": "t13",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation (written from prompt.md alone) passed all 12 tests.",
+    "reference_solution.py passed 12/12 on two runs with identical outcome (deterministic).",
+    "broken_solution.py (exclusive-end off-by-one) failed 8 and passed 4 tests, satisfying >=1 fail and >=1 pass.",
+    "Sneaky-wrong attack (treats Saturday as a working day, excluding only Sunday) was CAUGHT: failed 4 tests including weekend-span, single-Saturday, empty-range count, and the brute-force property test.",
+    "Static checks pass: tests import 'solution'; stdlib only (random, datetime); no network/file/env/clock reads; random is seeded (random.Random(4242)) inside a property loop; 12 assertions (>=8); property-style test present (test_property_matches_bruteforce, 200 iterations vs brute force); runtime <0.05s (<5s).",
+    "prompt.md never mentions tests/grading/pytest; difficulty label 'easy' is sane; not a verbatim textbook classic.",
+    "Test suite covers every spec clause: Mon-Fri filter, holiday exclusion, inclusive endpoints, empty/reversed range returns 0, duplicate holidays counted once, out-of-range and weekend holidays ignored."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

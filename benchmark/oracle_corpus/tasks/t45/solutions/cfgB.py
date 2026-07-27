@@ -1,0 +1,22 @@
+def deepest_level(tree):
+    if not tree["children"]:
+        return 0
+
+    max_depth = 0
+    for child in tree["children"]:
+        depth = deepest_level(child)
+        if depth > max_depth:
+            max_depth = depth
+
+    return max_depth + 1
+
+
+# Example usage
+tree = {
+    "name": "root",
+    "children": [
+        {"name": "a", "children": [{"name": "a1", "children": []}]},
+        {"name": "b", "children": []},
+    ],
+}
+print(deepest_level(tree))  # Output: 2

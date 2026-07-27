@@ -1,0 +1,13 @@
+{
+  "task_id": "t18",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation from prompt-only passed all 16 tests; prompt is unambiguous (symmetric undo/redo snapshot model, first-colon split, BACKSPACE overflow to empty, silent no-ops that do not clear the opposite stack).",
+    "reference_solution.py passed 16/16 on two consecutive runs with identical outcome (deterministic).",
+    "broken_solution.py failed 6 and passed 10 (fails >=1, passes >=1); its wrong-redo-snapshot bug is caught by test_undo_then_redo_restores_edit and the property test.",
+    "Sneaky-wrong attack: every genuinely-incorrect variant (empty-REDO clears undo, no redo-clear on edit, wrong BACKSPACE slice buffer[n:], UNDO clears redo, payload.strip(), rpartition/last-colon split) was caught, primarily by the 400-log property test comparing against an independent inline model. The only passing variant (BACKSPACE '>' vs '>=') is provably equivalent to the reference (buffer[:0]=='' at the boundary), so it is not a real deviation.",
+    "Static checks pass: tests import 'solution'; stdlib only (random seeded via random.Random(1234567) inside a property loop); no time/network/filesystem/env reads; 19 assertions across 16 tests; a property-style test is present; prompt never mentions tests/grading; difficulty 'medium' is sane; runtime ~0.14s (<5s); not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

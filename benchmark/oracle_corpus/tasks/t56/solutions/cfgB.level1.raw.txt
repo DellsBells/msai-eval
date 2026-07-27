@@ -1,0 +1,33 @@
+```python
+from heapq import heappush, heappop
+
+def dispatch(num_elevators, calls):
+    if num_elevators <= 0:
+        raise ValueError("Number of elevators must be positive")
+    
+    # Prioritize calls by their distance from the elevator's current position.
+    # We use a min heap to efficiently get the smallest element in O(log n) time.
+    call_heap = [(0, i) for i in range(num_elevators)]
+    heappush(call_heap, (float('inf'), -1))  # Dummy entry with infinite distance
+    
+    while calls:
+        _, elevator_id = heappop(call_heap)
+        
+        if elevator_id == -1: 
+            # Process the dummy entry and get the next call
+            call_distance, target_floor = heappop(calls)
+            heappush(call_heap, (call_distance + 1, target_floor))
+        else:
+            # Move to the target floor of the current call
+            call_distance, target_floor = calls.pop()
+            
+            # Update the heap with new distances for other elevators if needed
+            for i in range(num_elevators):
+                if i != elevator_id: 
+                    heappush(call_heap, (call_distance + abs(target_floor - i), i))
+    
+    return [heappop(call_heap)[1] for _ in range(len(calls))]
+
+# Example usage:
+# dispatch(3, [(20, 4), (5, 8), (7, 6)]) should return a list of elevator assignments
+```

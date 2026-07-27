@@ -1,0 +1,23 @@
+def longest_above_run(readings, threshold):
+    max_length = 0
+    start_index = -1
+    current_length = 0
+    current_start = -1
+
+    for i, reading in enumerate(readings):
+        if reading > threshold:
+            if current_length == 0:
+                current_start = i
+            current_length += 1
+        else:
+            if current_length > max_length:
+                max_length = current_length
+                start_index = current_start
+            current_length = 0
+
+    # Check the last run
+    if current_length > max_length:
+        max_length = current_length
+        start_index = current_start
+
+    return (max_length, start_index)

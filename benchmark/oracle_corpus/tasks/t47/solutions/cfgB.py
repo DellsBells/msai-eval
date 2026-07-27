@@ -1,0 +1,14 @@
+def first_path_with_tag(tree, tag):
+    def find_paths(node):
+        if node.get("tags") and tag in node["tags"]:
+            return [[node["id"]]]
+        elif "reports" in node:
+            paths = []
+            for report in node["reports"]:
+                sub_paths = find_paths(report)
+                if sub_paths:  # Found a path with the tag
+                    yield from (path + [n["id"]] for path in sub_paths for n in [node])
+                    break  # Return as soon as we found one
+
+    paths = list(find_paths(tree))
+    return next(iter(paths), []) if paths else []

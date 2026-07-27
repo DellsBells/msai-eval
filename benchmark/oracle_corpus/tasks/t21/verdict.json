@@ -1,0 +1,13 @@
+{
+  "task_id": "t21",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation from prompt alone passed all 11 tests (identical logic to reference).",
+    "Reference passes 11/11 deterministically across two runs.",
+    "Broken solution (sums all 8 neighbors including diagonals) fails 3 tests and passes 8 - satisfies >=1 fail, >=1 pass.",
+    "Sneaky-wrong attacks all caught: off-by-one right edge, sum-preserving row mirror, and clamp/replicate out-of-bounds padding each failed the suite; exact per-cell examples plus the degree-weighted property test leave no realistic incorrect-per-prompt solution that passes.",
+    "Static checks OK: tests import 'solution', 14 asserts (>=8), stdlib only, random is seeded (random.Random(20240607)) inside the property loop, no time/network/fs/env, runtime 0.13s (<5s), one property-style test, prompt never mentions tests/grading, difficulty 'easy' is sane, not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

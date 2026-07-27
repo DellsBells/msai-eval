@@ -1,0 +1,14 @@
+```python
+def residue_mod(digits: list[int], base: int, d: int) -> int:
+    if not digits or d == 1:
+        return 0
+    
+    result = 0
+    power_of_base_mod_d = 1
+    
+    for digit in reversed(digits):
+        result = (result + digit * power_of_base_mod_d) % d
+        power_of_base_mod_d = (power_of_base_mod_d * base) % d
+    
+    return result
+```

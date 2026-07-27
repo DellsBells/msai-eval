@@ -1,0 +1,13 @@
+{
+  "task_id": "t34",
+  "verdict": "PASS",
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true,
+  "reasons": [
+    "Blind reimplementation (written from prompt.md alone before opening any other file) passes all 11 tests.",
+    "reference_solution.py passes 11/11 on two consecutive runs with identical outcome (deterministic).",
+    "broken_solution.py fails 5 and passes 6 (dense-ranking 1223 bug: increments rank by 1 per group instead of skipping) — satisfies >=1 fail and >=1 pass.",
+    "Sneaky-wrong attacks all caught: (a) omit id tie-break relying on stable-sort input order -> fails test_id_tiebreak_within_group; (b) modified competition ranking (1334, last-position) -> fails skip/multi-group/property tests. The exact-match property test (200 seeded random cases, independent recomputation of the (-score,penalty,id) key and 1224 competition ranking) is a strong oracle against sort-order, tie-break, and ranking-scheme errors.",
+    "Static checks pass: tests import 'solution' (not the reference); stdlib only; no time/network/filesystem/env/subprocess in tests or solutions; only random.Random(777) seeded inside the property loop; 15 assertions across 11 test functions (>=8); includes a property-style test; full suite runs in ~0.14s (<5s); prompt.md never mentions tests/grading/pytest; meta.json difficulty 'medium' is sane for multi-key sort + competition ranking + id tie-break; not a verbatim textbook classic."
+  ]
+}

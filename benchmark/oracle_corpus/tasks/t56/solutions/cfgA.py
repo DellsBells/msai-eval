@@ -1,0 +1,51 @@
+def dispatch(num_elevators, calls):
+    elevators = [{'floor': 0, 'status': 'idle', 'target': None} for _ in range(num_elevators)]
+    unassigned_calls = sorted(calls, key=lambda x: x[1])
+    served_tick = {}
+    distance = [0] * num_elevators
+    last_tick = -1
+    tick = 0
+
+    while unassigned_calls or any(e['status'] == 'busy' for e in elevators):
+        # Phase A: Dispatch
+        while unassigned_calls:
+            call_floor, call_order = unassigned_calls[0]
+            idle_elevators = [i for i, e in enumerate(elevators) if e['status'] == 'idle']
+            if not idle_elevators:
+                break
+
+            closest_elevator = min(idle_elevators,
+                                   key=lambda i: (abs(elevators[i]['floor'] - call_floor), i))
+            elevators[closest_elevator]['status'] = 'busy'
+            elevators[closest_elevator]['target'] = call_floor
+            unassigned_calls.pop(0)
+
+        # Phase B: Movement
+        for i in range(num_elevators):
+            if elevators[i]['status'] == 'busy':
+                current_floor = elevators[i]['floor']
+                target_floor = elevators[i]['target']
+                if current_floor < target_floor:
+                    elevators[i]['floor'] += 1
+                elif current_floor > target_floor:
+                    elevators[i]['floor'] -= 1
+                else:
+                    served_tick[call_order] = tick
+                    elevators[i]['status'] = 'idle'
+                    elevators[i]['target'] = None
+
+        # Update distances and last tick
+        for i in range(num_elevators):
+            if elevators[i]['status'] == 'busy':
+                distance[i] += 1
+
+        if any(e['status'] == 'busy' for e in elevators):
+            last_tick = tick
+
+        tick += 1
+
+    return {
+        "served_tick": served_tick,
+        "distance": distance,
+        "last_tick": last_tick
+    }

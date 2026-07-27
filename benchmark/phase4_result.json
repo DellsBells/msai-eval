@@ -1,0 +1,1165 @@
+{
+  "models": [
+    "qwen3.5:27b",
+    "resale-vlm-v2:12b",
+    "qwen2.5vl:7b"
+  ],
+  "n_items": 14,
+  "trials": 2,
+  "temp": 0.7,
+  "items": [
+    {
+      "upc": "3564700522226",
+      "obf_brand": "Reere",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "8720181649646",
+      "obf_brand": "Zwitsal",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "8711700508483",
+      "obf_brand": "Zwitsal",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "4061464932647",
+      "obf_brand": "Lacura",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "8710604793568",
+      "obf_brand": "zendium",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "8720865876221",
+      "obf_brand": "Yoni",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "5099821137144",
+      "obf_brand": "Hawaiian Tropic",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "3600542573689",
+      "obf_brand": "Garnier",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "3401360192546",
+      "obf_brand": "Weleda",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "4001638526708",
+      "obf_brand": "Weleda",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "4001638098090",
+      "obf_brand": "Weleda",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "3401360222106",
+      "obf_brand": "Weleda",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "4001638099943",
+      "obf_brand": "Weleda",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    },
+    {
+      "upc": "3596209530280",
+      "obf_brand": "Weleda",
+      "udb_brand": null,
+      "u_ref": 0.15,
+      "src": "OBF only (no 2nd source)"
+    }
+  ],
+  "per_model": {
+    "qwen3.5:27b": {
+      "mean_overlap": 0.9285714285714286,
+      "brand_acc": 0.9285714285714286
+    },
+    "resale-vlm-v2:12b": {
+      "mean_overlap": 0.6071428571428571,
+      "brand_acc": 0.5714285714285714
+    },
+    "qwen2.5vl:7b": {
+      "mean_overlap": 0.9285714285714286,
+      "brand_acc": 0.9285714285714286
+    }
+  },
+  "data": [
+    {
+      "item": "3564700522226",
+      "judge": "qwen3.5:27b",
+      "score": 0.0
+    },
+    {
+      "item": "3564700522226",
+      "judge": "qwen3.5:27b",
+      "score": 0.0
+    },
+    {
+      "item": "8720181649646",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "8720181649646",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "8711700508483",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "8711700508483",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "4061464932647",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "4061464932647",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "8710604793568",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "8710604793568",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "8720865876221",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "8720865876221",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "5099821137144",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "5099821137144",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3600542573689",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3600542573689",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360192546",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360192546",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638526708",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638526708",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638098090",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638098090",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360222106",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360222106",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638099943",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638099943",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3596209530280",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3596209530280",
+      "judge": "qwen3.5:27b",
+      "score": 1.0
+    },
+    {
+      "item": "3564700522226",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "3564700522226",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "8720181649646",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "8720181649646",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "8711700508483",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "8711700508483",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "4061464932647",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "4061464932647",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "8710604793568",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "8710604793568",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "8720865876221",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "8720865876221",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "5099821137144",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "5099821137144",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "3600542573689",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "3600542573689",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360192546",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360192546",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638526708",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638526708",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638098090",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638098090",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360222106",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "3401360222106",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "4001638099943",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "4001638099943",
+      "judge": "resale-vlm-v2:12b",
+      "score": 1.0
+    },
+    {
+      "item": "3596209530280",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "3596209530280",
+      "judge": "resale-vlm-v2:12b",
+      "score": 0.0
+    },
+    {
+      "item": "3564700522226",
+      "judge": "qwen2.5vl:7b",
+      "score": 0.0
+    },
+    {
+      "item": "3564700522226",
+      "judge": "qwen2.5vl:7b",
+      "score": 0.0
+    },
+    {
+      "item": "8720181649646",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "8720181649646",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "8711700508483",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "8711700508483",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "4061464932647",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "4061464932647",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "8710604793568",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "8710604793568",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "8720865876221",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "8720865876221",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "5099821137144",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "5099821137144",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "3600542573689",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "3600542573689",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360192546",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360192546",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638526708",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638526708",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638098090",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638098090",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360222106",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "3401360222106",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638099943",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "4001638099943",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "3596209530280",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    },
+    {
+      "item": "3596209530280",
+      "judge": "qwen2.5vl:7b",
+      "score": 1.0
+    }
+  ],
+  "reliability": {
+    "n_items": 14,
+    "n_judges": 3,
+    "n_trials_max": 2,
+    "krippendorff_alpha": 0.26692176870748296,
+    "alpha_ci": [
+      -0.2047619047619047,
+      0.7386054421768707
+    ],
+    "alpha_level": "ordinal",
+    "is_nominal": false,
+    "icc_2_1": 0.3519061583577714,
+    "icc_ci": [
+      -7.771561172376095e-17,
+      0.8000607902735558
+    ],
+    "raw_agreement": {
+      "exact_agreement": 0.7619047619047619,
+      "mean_abs_diff": 0.2142857142857143,
+      "rater_pairs": 3
+    },
+    "rater_effects": {
+      "qwen3.5:27b": 0.10714285714285714,
+      "resale-vlm-v2:12b": -0.21428571428571427,
+      "qwen2.5vl:7b": 0.10714285714285714
+    },
+    "variance_components": {
+      "sigma2_item": 0.054945054945054944,
+      "sigma2_judge": 0.029304029304029318,
+      "sigma2_interaction": 0.06593406593406596,
+      "sigma2_repeat": 0.011904761904761842,
+      "grr_sd": 0.32732683535398854,
+      "tv_sd": 0.40260143080708505,
+      "measurement_noise_share_pct": 66.10169491525423,
+      "msi_grr_pct": 81.30294884889122,
+      "ndc": 1.0,
+      "deterministic": false,
+      "flags": []
+    },
+    "accuracy": {
+      "by_judge": {
+        "qwen3.5:27b": {
+          "accuracy": 0.9285714285714286,
+          "n": 28,
+          "mae": 0.07142857142857142
+        },
+        "resale-vlm-v2:12b": {
+          "accuracy": 0.6071428571428571,
+          "n": 28,
+          "mae": 0.39285714285714285
+        },
+        "qwen2.5vl:7b": {
+          "accuracy": 0.9285714285714286,
+          "n": 28,
+          "mae": 0.07142857142857142
+        }
+      },
+      "overall_accuracy": 0.8214285714285714,
+      "overall_mae": 0.17857142857142858,
+      "n_items_scored": 14,
+      "n_predictions": 84,
+      "level": "ordinal",
+      "tol": "per-item U_ref"
+    },
+    "gauge_judgement": {
+      "pct_grr": 81.3,
+      "ndc": 1.0,
+      "verdict": "NOT ACCEPTABLE",
+      "reason": "%GRR = 81.3% exceeds 30% \u2014 the measurement system's own noise is too large."
+    },
+    "agreement_band": "low agreement \u2014 measurement system is noisy",
+    "flags": [
+      "reference_is_consensus: the supplied reference matches the judges' own consensus on 13/14 items. Accuracy against consensus is circular \u2014 it measures agreement, not correctness. Use an independent reference."
+    ],
+    "detail": {
+      "items": [
+        "3564700522226",
+        "8720181649646",
+        "8711700508483",
+        "4061464932647",
+        "8710604793568",
+        "8720865876221",
+        "5099821137144",
+        "3600542573689",
+        "3401360192546",
+        "4001638526708",
+        "4001638098090",
+        "3401360222106",
+        "4001638099943",
+        "3596209530280"
+      ],
+      "judges": [
+        "qwen3.5:27b",
+        "resale-vlm-v2:12b",
+        "qwen2.5vl:7b"
+      ],
+      "grid": [
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "item_agreement": [
+        1.0,
+        0.6666666666666666,
+        1.0,
+        1.0,
+        0.6666666666666666,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "graded_against": "reference"
+    }
+  },
+  "uncertainty": {
+    "components": [
+      {
+        "source": "repeatability (re-scoring)",
+        "type": "A",
+        "u": 0.109109,
+        "dof": 42,
+        "pct": 6.2
+      },
+      {
+        "source": "reproducibility (between-judge)",
+        "type": "A",
+        "u": 0.308607,
+        "dof": 2,
+        "pct": 50.0
+      },
+      {
+        "source": "resolution (quantization)",
+        "type": "B",
+        "u": 0.288675,
+        "dof": Infinity,
+        "pct": 43.8
+      }
+    ],
+    "u_c": 0.436436,
+    "nu_eff": 7.994020963560953,
+    "k": 2.36,
+    "U": 1.029988,
+    "dominant": {
+      "source": "reproducibility (between-judge)",
+      "type": "A",
+      "u": 0.308607,
+      "dof": 2,
+      "pct": 50.0
+    },
+    "warnings": []
+  },
+  "proficiency": {
+    "by_judge": {
+      "qwen3.5:27b": {
+        "verdict": "OUTLIER \u2014 off the reference / panel",
+        "mean_z": 0.0,
+        "max_abs_z": 0.0,
+        "max_abs_En": 3.33,
+        "n_warn": 0,
+        "n_action": 0,
+        "en_fail": 1,
+        "n_scored": 14,
+        "per_item": [
+          {
+            "item": "3564700522226",
+            "src": "reference",
+            "En": -3.33,
+            "zeta": -6.67
+          },
+          {
+            "item": "8720181649646",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "8711700508483",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4061464932647",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "8710604793568",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "8720865876221",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "5099821137144",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3600542573689",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3401360192546",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4001638526708",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4001638098090",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3401360222106",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4001638099943",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3596209530280",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          }
+        ]
+      },
+      "resale-vlm-v2:12b": {
+        "verdict": "OUTLIER \u2014 off the reference / panel",
+        "mean_z": -1.53,
+        "max_abs_z": 1.53,
+        "max_abs_En": 3.33,
+        "n_warn": 0,
+        "n_action": 0,
+        "en_fail": 5,
+        "n_scored": 14,
+        "per_item": [
+          {
+            "item": "3564700522226",
+            "src": "reference",
+            "En": -3.33,
+            "zeta": -6.67
+          },
+          {
+            "item": "8720181649646",
+            "src": "reference",
+            "z": -1.53,
+            "En": -3.33,
+            "zeta": -6.67
+          },
+          {
+            "item": "8711700508483",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4061464932647",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "8710604793568",
+            "src": "reference",
+            "z": -1.53,
+            "En": -3.33,
+            "zeta": -6.67
+          },
+          {
+            "item": "8720865876221",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "5099821137144",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3600542573689",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3401360192546",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4001638526708",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4001638098090",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3401360222106",
+            "src": "reference",
+            "z": -1.53,
+            "En": -3.33,
+            "zeta": -6.67
+          },
+          {
+            "item": "4001638099943",
+            "src": "reference",
+            "z": -1.53,
+            "En": -0.48,
+            "zeta": -0.96
+          },
+          {
+            "item": "3596209530280",
+            "src": "reference",
+            "z": -1.53,
+            "En": -3.33,
+            "zeta": -6.67
+          }
+        ]
+      },
+      "qwen2.5vl:7b": {
+        "verdict": "OUTLIER \u2014 off the reference / panel",
+        "mean_z": 0.0,
+        "max_abs_z": 0.0,
+        "max_abs_En": 3.33,
+        "n_warn": 0,
+        "n_action": 0,
+        "en_fail": 1,
+        "n_scored": 14,
+        "per_item": [
+          {
+            "item": "3564700522226",
+            "src": "reference",
+            "En": -3.33,
+            "zeta": -6.67
+          },
+          {
+            "item": "8720181649646",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "8711700508483",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4061464932647",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "8710604793568",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "8720865876221",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "5099821137144",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3600542573689",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3401360192546",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4001638526708",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4001638098090",
+            "src": "reference",
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3401360222106",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "4001638099943",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          },
+          {
+            "item": "3596209530280",
+            "src": "reference",
+            "z": 0.0,
+            "En": 0.0,
+            "zeta": 0.0
+          }
+        ]
+      }
+    },
+    "by_item": {
+      "3564700522226": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "8720181649646": {
+        "assigned": 1.0,
+        "s_robust": 0.655,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "8711700508483": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "4061464932647": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "8710604793568": {
+        "assigned": 1.0,
+        "s_robust": 0.655,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "8720865876221": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "5099821137144": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "3600542573689": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "3401360192546": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "4001638526708": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "4001638098090": {
+        "assigned": 1.0,
+        "s_robust": 0.0,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "3401360222106": {
+        "assigned": 1.0,
+        "s_robust": 0.655,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "4001638099943": {
+        "assigned": 1.0,
+        "s_robust": 0.327,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      },
+      "3596209530280": {
+        "assigned": 1.0,
+        "s_robust": 0.655,
+        "u_assigned": 0.15,
+        "source": "reference",
+        "n_judges": 3
+      }
+    },
+    "n_items": 14,
+    "n_judges": 3,
+    "has_replicates": true,
+    "n_reference_items": 14,
+    "warnings": [
+      "small_panel: 3 judges \u2014 the robust consensus and its uncertainty are coarse; En/z are unstable with few peers (need a fuller panel to trust an outlier call).",
+      "reference_used: 14/14 item(s) scored against a TRACEABLE reference (En vs its u_ref) \u2014 these test correctness TO WITHIN u_ref; a loose u_ref proves little.",
+      "reference_marginal: on 14 item(s) u_ref is within ~4x of the item-to-item signal \u2014 treat 'competent vs reference' there as provisional.",
+      "reference_constant: the reference assigns the SAME target value to every item, so En reduces to accuracy-from-a-fixed-target, NOT peer-relative competence \u2014 read the per-judge accuracy/bias, not the OUTLIER verdict (which here just flags any deviation beyond u_ref, so a near-perfect judge can still read OUTLIER on one tight item)."
+    ]
+  }
+}

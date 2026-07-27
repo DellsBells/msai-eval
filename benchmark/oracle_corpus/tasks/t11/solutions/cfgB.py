@@ -1,0 +1,37 @@
+def coverage_stats(intervals):
+    total_covered = 0
+    multi_covered = 0
+
+    # Sort intervals by start time to handle them sequentially
+    sorted_intervals = sorted(intervals)
+
+    current_coverage = set()
+    depth = {interval: [1] for interval in sorted_intervals}
+
+    stack = [(intervals[0][0], 0)]  # (end_time, index)
+    while stack:
+        end_time, idx = stack.pop()
+
+        if idx < len(sorted_intervals):
+            start_time, end_time = sorted_intervals[idx]
+            current_coverage.add(start_time)
+
+            for j in range(idx + 1, len(sorted_intervals)):
+                next_start_time, _ = sorted_intervals[j]
+                if next_start_time <= end_time:
+                    depth[sorted_intervals[j]] += [len(current_coverage)]
+                    stack.append((next_start_time, j))
+                else:
+                    break
+
+        total_covered += end_time - start_time
+        multi_covered += sum(depth[intervals[idx]]) > 1
+
+    return total_covered, multi_covered
+
+
+# Example usage
+intervals = [[0, 5), [2, 7)]
+total_covered, multi_covered = coverage_stats(intervals)
+print(f"Total Covered Length: {total_covered}")
+print(f"Multi-Covered Length: {multi_covered}")

@@ -1,0 +1,14 @@
+{
+  "task_id": "t20",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation from prompt alone passed all 16 tests (16/16), no bug fix needed.",
+    "reference_solution.py passes deterministically across two runs (16/16 both, identical outcome).",
+    "broken_solution.py fails 6 and passes 10 (snapshot-aliasing / reference-not-copy bug), satisfying fail>=1 and pass>=1.",
+    "Five distinct sneaky-wrong variants all caught: off-by-one capacity (> vs >=), no-move-to-back on retouch, evict-back-instead-of-front, rollback-peek-instead-of-pop, and commit-clears-whole-stack. The last is caught only by the differential property test, confirming suite strength.",
+    "Static checks pass: tests import 'solution' not the reference; stdlib only (random seeded inside property loops via Random(555)/Random(9090), collections.deque); no time/network/filesystem/env access; 20 assertions (>=8); two property-style tests (independent deque model oracle over 400 seeded cases + per-prefix capacity/distinctness invariant); runtime 0.02-0.04s (<5s).",
+    "prompt.md never mentions tests, grading, or pytest; meta difficulty 'hard' is sane for a composite LRU-log + checkpoint/rollback/commit stack with snapshot-independence traps; not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

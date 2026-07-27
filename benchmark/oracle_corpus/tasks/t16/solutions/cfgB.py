@@ -1,0 +1,23 @@
+from datetime import datetime, timedelta
+
+def earliest_slot(day, duration_minutes, attendees):
+    # Assuming day is in UTC and duration minutes are relative to the current time.
+    # This function calculates the earliest slot where all attendees can meet given their fixed UTC offsets.
+
+    # Initialize a list of times for each attendee based on the meeting start time
+    meeting_times = [day + timedelta(minutes=i) for i in range(duration_minutes)]
+    
+    # Calculate the earliest possible meeting time by considering the maximum offset required to accommodate everyone.
+    earliest_time = day
+    
+    for attendee_offset in attendees:
+        # Adjusting the meeting times with each attendee's UTC offset
+        adjusted_meeting_times = [time + timedelta(minutes=attendee_offset) for time in meeting_times]
+        
+        # Finding the minimum of these adjusted times, which represents the earliest possible slot considering all offsets.
+        earliest_time = min(earliest_time, min(adjusted_meeting_times))
+    
+    return earliest_time
+
+# Example usage
+print(earliest_slot(datetime(2023, 10, 5), 60, [30, -45])) # This will print the datetime object representing the earliest possible meeting time.

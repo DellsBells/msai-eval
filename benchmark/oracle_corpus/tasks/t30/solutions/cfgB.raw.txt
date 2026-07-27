@@ -1,0 +1,16 @@
+```python
+import math
+
+def to_factoradic(n: int) -> list[int]:
+    result = []
+    while n > 0:
+        factorial = math.factorial(len(result))
+        digit = (n // factorial)
+        remainder = n % factorial
+        result.append(digit)
+        n = remainder
+    return result[::-1]
+
+# Example usage:
+print(to_factoradic(349))  # Output: [2, 0, 1, 2]
+```

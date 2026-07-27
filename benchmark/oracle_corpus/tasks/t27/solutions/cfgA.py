@@ -1,0 +1,18 @@
+def find_cycle(graph: dict) -> list | None:
+    def dfs(node, path):
+        if node in path:
+            return path[path.index(node):]
+        visited.add(node)
+        for neighbor in sorted(graph[node]):
+            cycle = dfs(neighbor, path + [node])
+            if cycle:
+                return cycle
+        return None
+
+    visited = set()
+    for start in sorted(graph.keys()):
+        if start not in visited:
+            cycle = dfs(start, [])
+            if cycle:
+                return cycle
+    return None

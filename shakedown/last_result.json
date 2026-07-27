@@ -1,0 +1,7266 @@
+{
+  "gate": "guard_band",
+  "mode": "resolution",
+  "usable": true,
+  "guard_band": 2.075299323941156,
+  "aggregate_ci_halfwidth": 0.1791666666666667,
+  "sharp_enough": false,
+  "gauge": {
+    "ndc": 0.0,
+    "grr_sd": 1.037649661970578,
+    "guard_band": 2.075299323941156,
+    "qualified": true,
+    "warnings": [
+      "ndc=0 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive: it scales with how far apart the hand-picked configs happen to be, so it under-reports when configs cluster into a few quality tiers even on a sharp gauge. The gauge's real resolution is the guard band \u2014 lean on it and the per-config verdicts, never ndc, as the accept/reject grade."
+    ]
+  },
+  "comparisons": {
+    "q8": {
+      "mean": 4.463888888888889,
+      "delta": 0.061111111111110894,
+      "ci": [
+        -0.06944444444444464,
+        0.21666666666666679
+      ],
+      "resolvable_raw": false,
+      "p_raw": 0.404,
+      "cliffs_delta": 0.04449845679012346,
+      "p_holm": 0.808,
+      "significant_adj": false,
+      "beyond_gauge": false,
+      "verdict": "within noise (indistinguishable on this gauge)"
+    },
+    "q4": {
+      "mean": 4.352777777777778,
+      "delta": -0.04999999999999982,
+      "ci": [
+        -0.2305555555555552,
+        0.1277777777777782
+      ],
+      "resolvable_raw": false,
+      "p_raw": 0.591,
+      "cliffs_delta": -0.024598765432098765,
+      "p_holm": 0.808,
+      "significant_adj": false,
+      "beyond_gauge": false,
+      "verdict": "within noise (indistinguishable on this gauge)"
+    },
+    "q3": {
+      "mean": 4.088888888888889,
+      "delta": -0.3138888888888891,
+      "ci": [
+        -0.6472222222222217,
+        -0.0193055555555558
+      ],
+      "resolvable_raw": true,
+      "p_raw": 0.038,
+      "cliffs_delta": -0.12248456790123456,
+      "p_holm": 0.11399999999999999,
+      "significant_adj": false,
+      "beyond_gauge": false,
+      "verdict": "within noise (indistinguishable on this gauge)"
+    }
+  },
+  "rows": [
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:12b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.5:27b",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 3
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 3
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 3
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 1
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "qwen3.6:35b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q8",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "hf.co/LiquidAI/LFM2-24B-A2B-GGUF:Q4_K_M",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "fp16",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 3
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 3
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 3
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 3
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q8",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q4",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 4
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 5
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    },
+    {
+      "item": "q3",
+      "judge": "gemma4:31b-mlx",
+      "score": 2
+    }
+  ]
+}

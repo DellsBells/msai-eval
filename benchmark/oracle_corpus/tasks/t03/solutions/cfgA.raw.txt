@@ -1,0 +1,18 @@
+```python
+def title_case(headline: str) -> str:
+    small_words = {"a", "an", "and", "as", "at", "but", "by", "for", "if", "in", "nor", "of", "on", "or", "the", "to", "via", "vs"}
+    acronyms = {"api", "ui", "id", "url", "http", "https", "sql", "html", "css", "json", "xml"}
+    
+    def transform_word(word, index, total_words):
+        lower_key = word.lower()
+        if lower_key in acronyms:
+            return word.upper()
+        elif lower_key in small_words and 0 < index < total_words - 1:
+            return lower_key
+        else:
+            return word.capitalize() if word else word
+    
+    words = headline.split()
+    transformed_words = [transform_word(word, i, len(words)) for i, word in enumerate(words)]
+    return ' '.join(transformed_words)
+```

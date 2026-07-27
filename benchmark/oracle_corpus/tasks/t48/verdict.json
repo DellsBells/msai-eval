@@ -1,0 +1,13 @@
+{
+  "task_id": "t48",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 16 tests deterministically across two runs",
+    "broken_solution.py (bool slips through isinstance(int) index check) fails 1 (test_bool_is_not_an_index) and passes 15",
+    "my independent blind solution (path-based, handles interned-scalar dedup) passed the full suite",
+    "sneaky-wrong attack (id()-based dedup/order - the exact pitfall the prompt warns about) was CAUGHT by test_duplicate_equal_scalars_not_collapsed and both property tests",
+    "static: imports 'solution', stdlib only (copy, random), deterministic seeded, <5s, 16 tests with many asserts, 2 property-style tests, cross-frontier-dedup and document-order coverage, no-mutation test, prompt never mentions tests, not a classic"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

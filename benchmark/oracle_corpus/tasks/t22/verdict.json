@@ -1,0 +1,14 @@
+{
+  "task_id": "t22",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation from prompt alone passed all 13 tests (26 assertions).",
+    "reference_solution.py passes 13/13 and is deterministic across two runs.",
+    "broken_solution.py fails 3 tests (mishandles negative k via abs) and passes 10 — satisfies fail>=1 and pass>=1.",
+    "Sneaky-wrong attack failed to find a defect that slips through: 7 subtly-incorrect variants (CCW rotation, negated-k mod, two wrong 180-degree shortcuts, wrong tall-shape index, turn==3 miscompose, shared-row identity copy, same-object identity return) were ALL caught. The property test composes single turns over random non-square shapes and pins direction via the single-column/single-cell/2x3 examples.",
+    "The injected observation claiming 'transpose+wrong-reverse' passes is false: transpose-then-reverse-each-row is mathematically EQUIVALENT to the correct clockwise turn (verified identical to the reference formula across 2000 random shapes), so its passing is correct behavior, not a suite weakness.",
+    "Static checks pass: tests import 'solution'; stdlib-only; random appears only as seeded random.Random(9981) inside the property loop; no time/network/filesystem/env/subprocess; runtime 0.15s (<5s); property-style test present; prompt.md never mentions tests/grading; meta.json difficulty 'medium' is sane; not a verbatim textbook classic (rectangular, signed k, mod-4, empty-matrix and no-mutation semantics distinguish it from the LeetCode square in-place 90-degree rotate)."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

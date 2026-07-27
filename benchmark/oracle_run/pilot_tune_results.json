@@ -1,0 +1,83 @@
+{
+ "degradation": "harness-default (title + signature + 'infer behavior')",
+ "rows": [
+  {
+   "task": "t49",
+   "rate_A": 1.0,
+   "replication_ok_A": true,
+   "rate_B": 1.0,
+   "replication_ok_B": true,
+   "g": 0.0,
+   "tier": "tie"
+  },
+  {
+   "task": "t50",
+   "rate_A": 1.0,
+   "replication_ok_A": true,
+   "rate_B": 0.0,
+   "replication_ok_B": true,
+   "g": 1.0,
+   "tier": "resolve"
+  },
+  {
+   "task": "t51",
+   "rate_A": 1.0,
+   "replication_ok_A": true,
+   "rate_B": 0.091,
+   "replication_ok_B": true,
+   "g": 0.909,
+   "tier": "resolve"
+  },
+  {
+   "task": "t52",
+   "rate_A": 1.0,
+   "replication_ok_A": true,
+   "rate_B": 0.333,
+   "replication_ok_B": true,
+   "g": 0.667,
+   "tier": "resolve"
+  },
+  {
+   "task": "t53",
+   "rate_A": 1.0,
+   "replication_ok_A": true,
+   "rate_B": 0.0,
+   "replication_ok_B": true,
+   "g": 1.0,
+   "tier": "resolve"
+  },
+  {
+   "task": "t54",
+   "rate_A": 1.0,
+   "replication_ok_A": true,
+   "rate_B": 0.0,
+   "replication_ok_B": true,
+   "g": 1.0,
+   "tier": "resolve"
+  },
+  {
+   "task": "t55",
+   "rate_A": 0.385,
+   "replication_ok_A": true,
+   "rate_B": 0.0,
+   "replication_ok_B": true,
+   "g": 0.385,
+   "tier": "subtle"
+  },
+  {
+   "task": "t56",
+   "rate_A": 0.077,
+   "replication_ok_A": true,
+   "rate_B": 0.0,
+   "replication_ok_B": true,
+   "g": 0.077,
+   "tier": "subtle"
+  }
+ ],
+ "spectrum": {
+  "tie": 1,
+  "resolve": 5,
+  "subtle": 2
+ },
+ "note": "pin or adjust cfg-B degradation on THIS evidence only; then freeze."
+}

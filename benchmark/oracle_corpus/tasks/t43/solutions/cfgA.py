@@ -1,0 +1,19 @@
+def flag_anomalies(readings, window, threshold):
+    if window < 1:
+        raise ValueError("Window must be at least 1.")
+    if window % 2 == 0:
+        raise ValueError("Window must be an odd number.")
+    if threshold < 0:
+        raise ValueError("Threshold must be non-negative.")
+    
+    anomalies = []
+    n = len(readings)
+    
+    for i in range(window, n):
+        baseline_readings = readings[i - window:i]
+        baseline_readings.sort()
+        baseline = baseline_readings[window // 2]
+        if abs(readings[i] - baseline) > threshold:
+            anomalies.append(i)
+    
+    return anomalies

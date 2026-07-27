@@ -1,0 +1,51 @@
+```python
+import struct
+
+def frame(payload: bytes) -> bytes:
+    if not payload:
+        return b"\x7e"
+    
+    frame = bytearray()
+    for byte in payload:
+        if byte == 0x7d:
+            frame.append(0x5d)
+        elif byte == 0x7e:
+            frame.append(0x5e)
+        else:
+            frame.append(byte)
+    return bytes(frame)
+
+def deframe(stuffed_frame: bytes) -> list[bytes]:
+    result = []
+    buffer = bytearray()
+    
+    for byte in stuffed_frame:
+        if byte == 0x5d and len(buffer) > 0:
+            buffer[-1] &= ~0x20
+            buffer.append(0x7d)
+        elif byte == 0x5e and len(buffer) > 0:
+            result.append(bytes(buffer))
+            buffer.clear()
+        else:
+            buffer.append(byte)
+    
+    if buffer: 
+        result.append(bytes(buffer)) 
+    
+    return [bytes(r) for r in result]
+
+def stuff(payload: bytes) -> bytes:
+    return frame(payload)
+
+# Example usage
+print(stuff(b"AB"))             # b"AB\x7e"
+print(stuff(b"\x7e"))           # b"\x7d\x5e"
+print(stuff(b"\x7d"))           # b"\x7d\x5d"
+print(frame(b"AB"))             # b"AB\x7e"
+print(frame(b""))               # b"\x7e"
+print(frame(b"\x7e\x7d"))       # b"\x7d\x5e\x7d\x5d\x7e"
+
+print(deframe(stuff(b"AB")))    # [b"AB"]
+print(deframe(stuff(b"\x7e\x7d")))  # [b"", b""]
+print(deframe(stuff(b"AB\x7eCD")))   # [b"AB", b"CD"]
+```

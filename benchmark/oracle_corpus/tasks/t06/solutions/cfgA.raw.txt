@@ -1,0 +1,23 @@
+```python
+def check_brackets(text: str) -> tuple:
+    stack = []
+    max_depth = 0
+    depth = 0
+    bracket_map = {')': '(', ']': '[', '}': '{'}
+    
+    for position, char in enumerate(text):
+        if char in '([{':
+            stack.append(char)
+            depth += 1
+            max_depth = max(max_depth, depth)
+        elif char in ')]}':
+            if not stack or stack[-1] != bracket_map[char]:
+                return (False, max_depth, position)
+            stack.pop()
+            depth -= 1
+    
+    if stack:
+        return (False, max_depth, text.index(stack[0]))
+    
+    return (True, max_depth, -1)
+```

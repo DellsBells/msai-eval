@@ -1,0 +1,17 @@
+```python
+def run_bin(capacity, events):
+    current_stock = 0
+    for event in events:
+        if event[0] == "restock":
+            current_stock += event[1]
+            if current_stock > capacity:
+                return f"Exceeded warehouse capacity: {current_stock} items"
+        elif event[0] == "ship":
+            current_stock -= event[1]
+            if current_stock < 0:
+                return f"Insufficient stock to ship: {event[1]} items"
+    return f"Final inventory status: {current_stock} items"
+
+# Example usage
+print(run_bin(10, [("restock", 8), ("ship", 3), ("restock", 8), ("ship", 20)]))  # Should print "Exceeded warehouse capacity: 6 items"
+```

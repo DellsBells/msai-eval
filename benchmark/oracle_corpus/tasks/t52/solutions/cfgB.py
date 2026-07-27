@@ -1,0 +1,26 @@
+def block_similarity(a: str, b: str) -> float:
+    if not a or not b:
+        return 0.0
+    
+    def recursive_similarity(s1, s2):
+        if len(s1) != len(s2):
+            return 0.0
+        
+        if not s1 and not s2:
+            return 1.0
+        
+        if not s1 or not s2:
+            return 0.0
+        
+        similarity = (len(s1) - max(len(s1) - recursive_similarity(s1[1:], s2), 
+                                   len(s2) - recursive_similarity(s1, s2[1:]))) / len(s1)
+        
+        return similarity
+    
+    return recursive_similarity(a, b)
+
+# Example usage:
+print(block_similarity("", ""))  # -> 1.0
+print(block_similarity("abc", "abc"))  # -> 1.0
+print(block_similarity("abc", "xyz"))  # -> 0.0
+print(block_similarity("abcd", "bcde"))  # -> 0.75

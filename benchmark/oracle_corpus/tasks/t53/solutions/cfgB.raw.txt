@@ -1,0 +1,20 @@
+```python
+def simulate_elevator(start_floor, requests, min_floor, max_floor):
+    current_floor = start_floor
+    log = []
+    
+    for floor in range(min_floor, max_floor + 1):
+        if any(floor == request and not (current_floor < floor or floor < current_floor) for request in requests):
+            log.append(f"Floor {current_floor} -> Floor {floor}")
+            while len(requests) > 0:
+                if min(requests) <= floor <= max(requests):
+                    requests.remove(min(requests))
+                    continue
+                break
+            current_floor = floor
+    
+    return log
+
+# Example usage:
+print(simulate_elevator(1, [3, 1, 5], 1, 10))
+```

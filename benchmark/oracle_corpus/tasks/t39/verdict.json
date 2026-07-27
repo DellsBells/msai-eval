@@ -1,0 +1,13 @@
+{
+  "task_id": "t39",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 12 tests deterministically across two runs (identical results)",
+    "broken_solution.py fails 1 (test_deframe_drops_partial_trailing) and passes 11 - satisfies fail>=1 and pass>=1",
+    "my independent blind solution passed the full suite",
+    "sneaky-wrong attack (replace()-based unstuff that corrupts adjacent escape substitutes) was CAUGHT by test_roundtrip_single_frame_property",
+    "static: imports 'solution', stdlib only (random), deterministic seeded, <5s, 12 test functions with many asserts, property-style roundtrip tests present, prompt never mentions tests, not a verbatim classic"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

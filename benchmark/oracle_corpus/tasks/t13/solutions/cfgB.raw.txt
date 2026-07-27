@@ -1,0 +1,17 @@
+```python
+from datetime import datetime
+
+def working_days(start: str, end: str, holidays: list[str]) -> int:
+    start_date = datetime.strptime(start, '%Y-%m-%d')
+    end_date = datetime.strptime(end, '%Y-%m-%d')
+
+    def is_working_day(date):
+        day_of_week = date.weekday()
+        if 5 <= day_of_week < 7 or str(date.date()) in holidays:
+            return False
+        else:
+            return True
+
+    working_days_count = sum(is_working_day(date) for date in range(int(start_date.timestamp()), int(end_date.timestamp())))
+    return working_days_count - (end_date - start_date).days + 1 if is_working_day(start_date) and not any(str(date.date()) in holidays for date in [start_date, end_date]) else working_days_count
+```

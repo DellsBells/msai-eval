@@ -1,0 +1,12 @@
+def parse_settings(text: str) -> dict:
+    settings = {}
+    for setting in text.split(';'):
+        if '=' not in setting:
+            continue
+        key, value = setting.split('=')
+        settings[key.strip()] = value.strip()
+    return settings
+
+# Example usage:
+# >>> parse_settings("name=John;age=30;height=5'10\"")
+# {'name': 'John', 'age': '30', 'height': "5'10\""}

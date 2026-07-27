@@ -1,0 +1,13 @@
+{
+  "task_id": "t46",
+  "verdict": "PASS",
+  "reasons": [
+    "reference_solution.py passes all 12 tests deterministically across two runs",
+    "broken_solution.py fails 7 and passes 5 - satisfies fail>=1 and pass>=1",
+    "my independent blind solution passed the full suite",
+    "sneaky-wrong attack (keeping empty non-root dirs at depth==max_depth) was CAUGHT by test_depth_cap_collapses_now_empty_dir, test_cascade_up_multiple_levels, and the property test",
+    "static: imports 'solution', stdlib only (copy, random), deterministic seeded, <5s, 12 tests with many asserts, property-style invariant test present, no-mutation test present, prompt never mentions tests, not a classic"
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

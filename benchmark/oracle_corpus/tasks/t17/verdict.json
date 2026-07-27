@@ -1,0 +1,15 @@
+{
+  "task_id": "t17",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation from prompt.md alone passed all 12 tests (exit 0); logic independently matched the reference.",
+    "reference_solution.py passed all 12 tests on two consecutive runs with identical outcome (deterministic).",
+    "broken_solution.py failed 2 tests (test_unclosed_returns_innermost_not_outermost, test_duplicate_and_deep_nesting) and passed 10, satisfying fail>=1 and pass>=1; failures match its stated bug (returns outermost instead of innermost unclosed opener).",
+    "Four sneaky-wrong attacks were ALL caught: (A) opener index instead of closer index on mismatch -> 2 failed; (D) last-pushed opener instead of innermost-remaining -> 1 failed; (E) prioritize end-of-string unclosed over mid-scan fault (violates tie-break) -> 2 failed; (G) depth counter with no type check -> 2 failed. Suite is not too weak.",
+    "Static checks pass: 27 assertions (>=8), 12 test functions including 2 property-style tests, both using seeded random.Random inside property loops (allowed).",
+    "Tests import 'solution' (not reference); no random/time/network/filesystem/env/subprocess in tests or solutions (lone 'open' grep hit is a word in a comment); runtime ~0.03s (<5s).",
+    "prompt.md never mentions tests/grading; meta.json difficulty 'easy' is sane; task is a meaningful extension of balanced-brackets (fault-index with innermost-unclosed and mid-scan tie-break rules), not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

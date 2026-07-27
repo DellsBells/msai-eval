@@ -1,0 +1,28 @@
+def topo_order(graph: dict) -> list:
+    from collections import deque
+    
+    # Step 1: Compute the in-degree of every node
+    in_degree = {node: 0 for node in graph}
+    for u in graph:
+        seen_successors = set()
+        for v in graph[u]:
+            if v not in seen_successors:
+                in_degree[v] += 1
+                seen_successors.add(v)
+    
+    # Step 2: Initialize the queue with all nodes of in-degree 0
+    zero_in_degree = sorted([node for node, degree in in_degree.items() if degree == 0])
+    queue = deque(zero_in_degree)
+    
+    # Step 3: Process the nodes
+    result = []
+    while queue:
+        u = queue.popleft()
+        result.append(u)
+        for v in graph[u]:
+            in_degree[v] -= 1
+            if in_degree[v] == 0:
+                queue.append(v)
+                zero_in_degree.remove(v)  # Ensure no duplicates are added
+    
+    return result

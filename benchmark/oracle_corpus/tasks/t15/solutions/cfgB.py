@@ -1,0 +1,8 @@
+from datetime import datetime
+
+def iso_week_counts(dates: list[str]) -> list[tuple[str, int]]:
+    def get_iso_week(date_str):
+        date = datetime.strptime(date_str, '%Y-%m-%d')
+        return (date.isocalendar()[1],)
+
+    return [(week, len(list(filter(lambda x: x[0] == week, dates)))) for week in set(get_iso_week(d) for d in dates)]

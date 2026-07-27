@@ -1,0 +1,75 @@
+{
+  "n_per_sample": 25,
+  "baseline": "base/raw",
+  "scope": "statistical gate (CI + Holm over the planned vs-control family) + accuracy-vs-truth; NOT the reproducibility guard band (brand-ID is frozen, no judge panel)",
+  "rates_A": {
+    "base/raw": 0.44,
+    "OCR/raw": 0.44,
+    "base/prep": 0.76,
+    "OCR/prep": 0.72,
+    "ceiling(qwen)": 0.72
+  },
+  "rates_B": {
+    "base/raw": 0.44,
+    "OCR/raw": 0.48,
+    "base/prep": 0.72,
+    "OCR/prep": 0.8,
+    "ceiling(qwen)": 0.8
+  },
+  "contrasts": {
+    "OCR/raw vs base/raw": {
+      "dA": 0.0,
+      "ciA": [
+        0.0,
+        0.0
+      ],
+      "dB": 0.04,
+      "p_raw": 1.0,
+      "p_holm": 1.0,
+      "resolvable": false,
+      "replicated": false
+    },
+    "base/prep vs base/raw": {
+      "dA": 0.32,
+      "ciA": [
+        0.12,
+        0.52
+      ],
+      "dB": 0.28,
+      "p_raw": 0.007,
+      "p_holm": 0.028,
+      "resolvable": true,
+      "replicated": true
+    },
+    "OCR/prep vs base/raw": {
+      "dA": 0.28,
+      "ciA": [
+        0.08,
+        0.48
+      ],
+      "dB": 0.36,
+      "p_raw": 0.013,
+      "p_holm": 0.039,
+      "resolvable": true,
+      "replicated": true
+    },
+    "ceiling(qwen) vs base/raw": {
+      "dA": 0.28,
+      "ciA": [
+        0.08,
+        0.48
+      ],
+      "dB": 0.36,
+      "p_raw": 0.015,
+      "p_holm": 0.039,
+      "resolvable": true,
+      "replicated": true
+    }
+  },
+  "separation": {
+    "resolvable_replicate_rate": 1.0,
+    "n_resolvable": 3,
+    "within_noise_replicate_rate": 0.0,
+    "n_within_noise": 1
+  }
+}

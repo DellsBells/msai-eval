@@ -1,0 +1,18 @@
+```python
+def simulate_elevator(start_floor, requests, min_floor, max_floor):
+    current_floor = start_floor
+    total_distance = 0
+    stops_count = 0
+
+    for request in requests:
+        if min_floor <= request <= max_floor:
+            total_distance += abs(request - current_floor)
+            current_floor = request
+            stops_count += 1
+
+    return {
+        "final_floor": current_floor,
+        "distance": total_distance,
+        "stops": stops_count
+    }
+```

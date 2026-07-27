@@ -1,0 +1,15 @@
+```python
+def parse_settings(text: str) -> dict:
+    settings = {}
+    entries = text.split(';')
+    for entry in entries:
+        trimmed_entry = entry.strip()
+        if '=' not in trimmed_entry or not trimmed_entry:
+            continue
+        key, value = trimmed_entry.split('=', 1)
+        key = key.strip()
+        value = value.strip()
+        if key:
+            settings[key] = value
+    return settings
+```

@@ -1,0 +1,15 @@
+{
+  "task_id": "t07",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation (independent left-to-right scanner) passed all 13 tests on first try with no bug fix needed.",
+    "reference_solution.py passes all 13 tests and is deterministic across two identical runs.",
+    "broken_solution.py fails 3 and passes 10 (it drops the doubled-quote escape), satisfying fail>=1 and pass>=1.",
+    "Sneaky-wrong attack (recognizes the '' escape even OUTSIDE quotes, a genuine violation of rules 3 and 4 on well-formed input) was CAUGHT by test_escaped_quote_whole_field ('a,\"\"\"\",b') and test_roundtrip_quote_encoding.",
+    "A second candidate (i+2<n off-by-one) passed, but a 200k-case differential vs the reference showed it diverges ONLY on malformed/unbalanced-quote inputs, which the prompt explicitly excludes; thus it is a valid alternative impl for the guaranteed domain, not a suite weakness.",
+    "Static checks pass: tests import 'solution' not the reference; no time/network/filesystem/env access anywhere; random is seeded (Random(2024), Random(555)) inside property loops; 16 assertions (>=8); two property-style tests (count-invariant and quote-encoding roundtrip); suite runtime ~0.15s (<5s); pure-stdlib solutions with no imports; prompt never mentions tests/grading.",
+    "meta.json difficulty 'medium' is sane; the mid-field quote-toggle semantics (rule 4) make this a deliberate non-standard variant, not a verbatim textbook CSV classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

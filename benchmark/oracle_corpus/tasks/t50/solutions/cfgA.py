@@ -1,0 +1,20 @@
+def longest_shared_run(a: str, b: str) -> tuple[int, int]:
+    if not a or not b:
+        return (0, 0)
+    
+    max_length = 0
+    start_index = 0
+    
+    for i in range(len(a)):
+        for j in range(len(b)):
+            length = 0
+            while (i + length < len(a) and 
+                   j + length < len(b) and 
+                   a[i + length] == b[j + length]):
+                length += 1
+            
+            if length > max_length:
+                max_length = length
+                start_index = i
+    
+    return (max_length, start_index)

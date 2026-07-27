@@ -1,0 +1,85 @@
+{
+  "tiers": {
+    "easy": {
+      "n_live": 3,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": 1.6,
+      "delta": 1.5999999999999996,
+      "beyond_gauge": true,
+      "significant": true,
+      "qualified": true,
+      "guard_band": 1.598856,
+      "repro_sd": 0.3594,
+      "repro_ok": true,
+      "verdict": "REAL gain (beyond gauge resolution)",
+      "gauge_warnings": [
+        "few_judges_coarse_ci",
+        "ndc=3 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ]
+    },
+    "hard": {
+      "n_live": 3,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": 2.133,
+      "delta": 2.1333333333333333,
+      "beyond_gauge": true,
+      "significant": true,
+      "qualified": true,
+      "guard_band": 1.997188,
+      "repro_sd": 0.4349,
+      "repro_ok": true,
+      "verdict": "REAL gain (beyond gauge resolution)",
+      "gauge_warnings": [
+        "few_judges_coarse_ci",
+        "ndc=2 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ]
+    },
+    "sham": {
+      "n_live": 3,
+      "dead": [],
+      "degenerate": [],
+      "partial": [],
+      "void": false,
+      "reason": "",
+      "perceived_delta": -0.067,
+      "delta": -0.06666666666666643,
+      "beyond_gauge": false,
+      "significant": false,
+      "qualified": true,
+      "guard_band": 1.538718,
+      "repro_sd": 0.3036,
+      "repro_ok": true,
+      "verdict": "within noise (indistinguishable on this gauge)",
+      "gauge_warnings": [
+        "few_judges_coarse_ci",
+        "ndc=0 (<5, the AIAG adequate-gauge bar) \u2014 ADVISORY ONLY, NOT a gate. ndc is selection-sensitive"
+      ]
+    }
+  },
+  "perceived_ladder": [
+    1.6,
+    2.133,
+    -0.067
+  ],
+  "checks": {
+    "manipulation_monotone": false,
+    "easy_resolves": true,
+    "hard_real_but_below": false,
+    "sham_within_noise": true
+  },
+  "GATE_PASS": false,
+  "PASS": false,
+  "judges": [
+    "gemma4:12b",
+    "qwen3.5:27b",
+    "qwen3.6:35b-mlx"
+  ]
+}

@@ -1,0 +1,15 @@
+def longest_above_run(readings, threshold):
+    max_length = 0
+    current_length = 0
+    
+    for reading in readings:
+        if reading > threshold:
+            current_length += 1
+            max_length = max(max_length, current_length)
+        else:
+            current_length = 0
+            
+    return max_length
+
+# Example usage
+print(longest_above_run([1, 5, 6, 2, 7, 8, 9, 3], 4))  # Output: 3

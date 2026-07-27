@@ -1,0 +1,22 @@
+```python
+def find_fault(s: str) -> int:
+    stack = []
+    for i, c in enumerate(s):
+        if c == '(' or c == '[':
+            stack.append(c)
+        elif c == ')' and not stack:
+            return i + 1
+        elif c == ']' and not stack:
+            return i + 1
+        elif (c == ')' and stack[-1] == '(') or (c == ']' and stack[-1] == '['):
+            stack.pop()
+        else:
+            # mismatched characters found, return index of the unmatched closing character
+            return i + 1
+
+    if not stack:
+        return -1
+    else:
+        # unclosed opening brackets are found at the end of string
+        return len(s) - 1
+```

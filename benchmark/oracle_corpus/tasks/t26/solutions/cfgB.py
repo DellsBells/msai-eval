@@ -1,0 +1,34 @@
+from collections import deque
+
+def topo_order(graph: dict) -> list:
+    def build_indegree_dict(graph):
+        indegree = {node: 0 for node in graph}
+        for parent in graph:
+            for child in graph[parent]:
+                indegree[child] += 1
+        return indegree
+    
+    def bfs_topo_sort(indegree, graph):
+        queue = deque([node for node in graph if not indegree[node]])
+        sorted_order = []
+        while queue:
+            current_node = queue.popleft()
+            sorted_order.append(current_node)
+            for neighbor in graph[current_node]:
+                indegree[neighbor] -= 1
+                if not indegree[neighbor]:
+                    queue.append(neighbor)
+        return sorted_order
+    
+    indegree_dict = build_indegree_dict(graph)
+    return bfs_topo_sort(indegree_dict, graph)
+
+
+# Example usage:
+graph = {
+    "shirt": ["tie", "belt"],
+    "tie":   ["jacket"],
+    "belt":  ["jacket"],
+    "jacket": [],
+}
+print(topo_order(graph))  # Output: ['jacket', 'belt', 'tie', 'shirt']

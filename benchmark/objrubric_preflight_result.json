@@ -1,0 +1,27 @@
+{
+  "completeness": {
+    "full": 4.33,
+    "full2": 4.0,
+    "mid": 3.67,
+    "stub": 3.17
+  },
+  "alpha": {
+    "brand": -0.363,
+    "product_type": -0.438,
+    "color": 0.035,
+    "size": 0.179,
+    "condition": -0.211,
+    "key_feature": -0.258
+  },
+  "mean_alpha_checkable": -0.147,
+  "mean_alpha_judgment": -0.234,
+  "checks": {
+    "ladder_monotone": true,
+    "ladder_spread>=1.5": false,
+    "full\u2248full2 (within-noise pair)": true,
+    "gauge_tightened (chk \u03b1>=0.4)": false,
+    "not_too_objective (judgment retains variance)": true
+  },
+  "n_scores": 24,
+  "preflight_pass": false
+}

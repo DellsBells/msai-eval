@@ -1,0 +1,29 @@
+def count_enclosed_regions(grid):
+    if not grid or len(grid[0]) < 3:
+        return 0
+
+    rows, cols = len(grid), len(grid[0])
+    visited = [[False] * cols for _ in range(rows)]
+
+    def dfs(r, c):
+        stack = [(r, c)]
+        touches_border = False
+        while stack:
+            x, y = stack.pop()
+            if (x == 0 or x == rows - 1 or y == 0 or y == cols - 1):
+                touches_border = True
+            visited[x][y] = True
+            for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
+                nx, ny = x + dx, y + dy
+                if 0 <= nx < rows and 0 <= ny < cols and not visited[nx][ny] and grid[nx][ny] == '.':
+                    stack.append((nx, ny))
+        return not touches_border
+
+    enclosed_count = 0
+    for r in range(1, rows - 1):
+        for c in range(1, cols - 1):
+            if grid[r][c] == '.' and not visited[r][c]:
+                if dfs(r, c):
+                    enclosed_count += 1
+
+    return enclosed_count

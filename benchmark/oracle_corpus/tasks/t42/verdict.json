@@ -1,0 +1,13 @@
+{
+  "task_id": "t42",
+  "verdict": "PASS",
+  "reasons": [
+    "Blind reimplementation from prompt alone passed all 13 tests.",
+    "Reference solution passed 13/13 on two runs with identical outcome (deterministic).",
+    "Broken solution failed 8 and passed 5 (fails >=1, passes >=1) via the off-by-one that drops the final window.",
+    "Sneaky-wrong attacks all caught: latest-tie-break (>=) caught by test_tie_prefers_earliest + property; n<=k edge caught by test_window_equals_length + property; rejecting k==1 caught by test_single_element_window + test_empty_input + property.",
+    "Static checks pass: tests import 'solution' not reference; stdlib-only; random only in seeded property loop (Random(4042)); no time/network/fs/env; 15 assertions (13 assert + 2 pytest.raises); property test compares 300 random cases to brute force; suite runs in 0.15s; prompt never mentions tests/grading; difficulty 'medium' is sane; not a verbatim textbook classic."
+  ],
+  "blind_impl_passed": true,
+  "sneaky_wrong_caught": true
+}

@@ -1,0 +1,4 @@
+```python
+def rolling_ranges(readings, k):
+    return [(readings[i], readings[min(i + k - 1, len(readings) - 1)]) for i in range(len(readings) - k + 1)]
+```
