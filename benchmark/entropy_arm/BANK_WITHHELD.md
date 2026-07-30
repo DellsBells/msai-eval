@@ -1,4 +1,8 @@
-# Withheld from the public release: the evidence bank and row-level transcripts
+# STATUS: HASH-ANCHORED, RAW WITHHELD — the evidence bank and row-level transcripts
+
+*(Labeling per CDX #013 F2: a hash commits IDENTITY, not availability, and never
+chronology. Claims backed by these files carry this status explicitly and are never
+presented as openly checkable.)*
 
 The entropy-arm studies test whether models fabricate when citing evidence. To make the
 test real, the 24-item bank embeds clause-grounded renderings of paid standards documents
