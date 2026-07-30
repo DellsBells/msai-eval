@@ -23,10 +23,9 @@ cannot see. (Same consensus-is-not-correctness stance as the rest of MSAI.)
     from msai_eval import proficiency
     proficiency(data, level="ordinal").summary()
 
-Grounded in the field (the corpus's loudest signal, the one claim corroborated across both shows):
-"You've got to be able to show you can do it. Proctoring it, proving it, that's where the application
-is required." (Stahley, chatnapt-ep25 ↔ qcast-ep191) — competence is DEMONSTRATED, not self-reported.
-See METROLOGY_BRIEF.md §2a.
+Field grounding (private practitioner corpus, not redistributed here): competence is
+DEMONSTRATED under proctored comparison, never self-reported. Clause-level grounding:
+docs/SPEC_GROUNDING.md.
 
 STANDARDS CONFORMANCE — verified against the standards layer we actually hold (Eurachem PT Guide +
 ISO/IEC 17043; ISO 13528 itself is NOT in the layer, so we anchor to the held clauses that carry the

@@ -29,11 +29,9 @@ resolution= (the smallest meaningful difference); otherwise a `resolution_auto_i
     from msai_eval import uncertainty_budget
     uncertainty_budget(data, level="ordinal", reference=ref).summary()
 
-Grounded in the field (corroborated across both shows): the complete budget is "the five R's:
-reference standard and certainty, reference stability, resolution, repeatability, reproducibility...
-and don't forget environmental factors" (Zumbrun, chatnapt-ep18 ↔ qcast); and a pass/fail without
-uncertainty is unsafe — "a resulting probability that it's called a pass, but it has a high probability
-it could be a fail" (qcast-ep243 ↔ chatnapt). See METROLOGY_BRIEF.md §2a.
+Field grounding (private practitioner corpus, not redistributed here): the budget must cover
+reference, stability, resolution, repeatability, reproducibility, and environment — and a pass/fail
+issued without uncertainty can hide a probable fail. Clause-level grounding: docs/SPEC_GROUNDING.md.
 """
 from __future__ import annotations
 from dataclasses import dataclass, field

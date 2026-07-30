@@ -52,8 +52,8 @@ Honesty guards (why this isn't just a t-test):
     use, the width below which this gauge cannot DISCRIMINATE two configs no matter how
     many times you re-read them. That is the real-metrology decision rule: a conformity
     statement "cannot be made fully without accounting for measurement uncertainty"
-    (Q-Cast ep142, ep310), and U is the root-sum-square of the gauge's error sources —
-    the "five R's" (ChatNAPT ep18-zumbrun, Q-Cast ep222). u_ref is excluded here: it is
+    (practitioner-corpus convention), and U is the root-sum-square of the gauge's error sources —
+    the "five R's" (see docs/SPEC_GROUNDING.md). u_ref is excluded here: it is
     common-mode in a config-vs-baseline delta and cancels.
   * The uncertainty of the ESTIMATE — Band A, k·u(Δ̂), the ± on the mean difference we
     actually measured (VIM/JCGM 200 §2.47 metrological compatibility) — is a SEPARATE
@@ -372,8 +372,8 @@ def compare(data, baseline, level: str = "ordinal", guard_k: float = 2.0,
         # the CI half-width in comparisons[*]["estimate_U"]) shrinks with N and is disclosed separately —
         # it is never this gate. Real-metrology grounding: a conformity
         # statement "cannot be made fully without accounting for measurement uncertainty"
-        # (Q-Cast ep142, ep310); U is the RSS of the gauge's error sources — the "five R's"
-        # repeatability/reproducibility/resolution/reference (ChatNAPT ep18-zumbrun, Q-Cast ep222).
+        # (practitioner-corpus convention); U is the RSS of the gauge's error sources — the "five R's"
+        # repeatability/reproducibility/resolution/reference (see docs/SPEC_GROUNDING.md).
         # TWO common-mode terms cancel in a config-vs-baseline DELTA and must NOT be in its band:
         #   (1) u_ref — the reference's own uncertainty (NO reference is passed here ON PURPOSE).
         #   (2) the judge MAIN effect — each appraiser's overall scale LEVEL. The same judge rates both
@@ -442,7 +442,7 @@ def compare(data, baseline, level: str = "ordinal", guard_k: float = 2.0,
         # Optional reference precondition gate. In a config-vs-baseline comparison the reference's
         # role is NOT to widen the band (u_ref cancels) but to confirm a verdict that stands in for
         # "as good as truth" is arbitrable at all: a reference must out-resolve the gauge (the reference-adequacy ratio
-        # rule; Q-Cast ep142, generalized to the full budget per ChatNAPT ep02/ep22). fitness() now
+        # rule; practitioner-corpus convention, generalized to the full budget). fitness() now
         # governs on worst-case u_ref. Surfaced as a warning; the relative verdict is unaffected.
         if reference is not None and hasattr(reference, "fitness") and gauge["grr_sd"]:
             fit = reference.fitness(gauge["grr_sd"])

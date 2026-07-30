@@ -14,10 +14,10 @@ KEY HONESTY GUARDS this fixes vs. naive Gage R&R:
     feeding in more spread-out items. We report it labeled as such, with the
     AIAG-convention advisory grade printed by default; supply your own thresholds to override it.
 
-Grounded in the field: "make sure you have a good Gage R&R in place ahead of time... you're working
-with a baseline where you're starting off with kind of an understanding of truth" (Q-Cast ep278) —
-qualify the measurement system before trusting any result. (Note: there is NO verbatim ndc claim
-anywhere in the 208-episode corpus, so ndc is grounded at principle level only.) See METROLOGY_BRIEF §2a.
+Field grounding (private practitioner corpus, not redistributed here): qualify the measurement
+system before trusting any result it produces. (No verbatim practitioner claim covers ndc anywhere
+in the corpus, so ndc is grounded at principle level only — and demoted to advisory here.)
+Clause-level grounding: docs/SPEC_GROUNDING.md.
 """
 from __future__ import annotations
 import numpy as np

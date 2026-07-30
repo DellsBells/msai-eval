@@ -12,13 +12,11 @@ external reference or peer panel — never by self-report.** In one line, MSAI i
 This package is grounded in real metrology practice, not analogy. Before changing or
 extending it, read, in order:
 
-1. **`METROLOGY_BRIEF.md`** — what MSAI is, the seven modules (reliability `BUILT`,
-   conformity `PARTIAL`; stability / reference / proficiency / uncertainty / rater_effects
-   next), the build sequence, and the honesty guards that must never regress.
-2. **The grounding KB** — 387 sourced claims distilled from 30 episodes of working
-   metrologists, each mapped to an MSAI module with the named speaker and episode. It
-   lives in a private sibling project (not in this repo); `docs/SPEC_GROUNDING.md`
-   records which clauses ground which modules.
+1. **`README.md` + `docs/ONE_THESIS.md`** — what MSAI is, the module map, and the honesty
+   guards that must never regress.
+2. **`docs/SPEC_GROUNDING.md`** — which standards clauses ground which modules. (Module
+   design is additionally grounded in a private practitioner corpus that is not part of
+   this repository.)
 
 ## Honesty guards — do not weaken these
 
@@ -29,7 +27,7 @@ MSAI's entire moat is that it refuses to overclaim. The load-bearing rules:
 - **A gauge that can't resolve the delta must say so** (guard band; `ndc` is *advisory
   context*, never a hard gate). "Within noise" means *below this gauge's resolution* — never
   paraphrase it as "equal" or "lossless."
-- **Grading a judge against your own consensus is circular** (ChatNAPT ep12-sims-8); real
+- **Grading a judge against your own consensus is circular** (practitioner-corpus principle); real
   competence needs an external, independent reference.
 - **Never thread an LLM's self-reported confidence in as a calibrated σ.**
 - **Don't promise per-item risk** when only a pooled, dataset-level uncertainty exists.

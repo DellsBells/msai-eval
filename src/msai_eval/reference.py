@@ -24,10 +24,9 @@ Then:
 
     from msai_eval import certified_reference, combine_references, score
 
-Grounded in the field: "if you're not 100% comfortable with that established reference value and the
-associated uncertainty... the entire test is meaningless" (Shah, chatnapt-ep10); traceability is earned,
-not asserted — "what is NIST traceability? Just by saying that doesn't mean you have it" (Doty,
-chatnapt-ep22, corroborated by qcast-ep195). See METROLOGY_BRIEF.md §2a.
+Field grounding (private practitioner corpus, not redistributed here): a reference is usable only
+with a defensible value AND its uncertainty; traceability is earned by an unbroken chain, never by
+assertion. Clause-level grounding: docs/SPEC_GROUNDING.md.
 """
 from __future__ import annotations
 from dataclasses import dataclass, field

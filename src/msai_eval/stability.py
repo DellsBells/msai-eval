@@ -5,13 +5,10 @@ re-measured across runs and flags when the measurement process has DRIFTED — a
 model update, a prompt edit, a quantization swap, a vendor model-version bump — using
 Shewhart control limits + EWMA + Western Electric rules.
 
-Grounded in the multi-show metrology corpus (verified verbatim; ★ = corroborated across both shows):
-  - ★ Don't trust the maker's interval: "if you rely just on the manufacturer's recommended
-    calibration interval you are setting yourself up for risk" (Shah, chatnapt-ep10 ↔ qcast).
-  - ★ "if it's critical... do intermediate checks in between your calibration intervals"
-    (Shah, chatnapt-ep10 ↔ qcast) — this monitor, verbatim.
+Field grounding (private practitioner corpus, not redistributed here):
+  - Don't trust the maker's interval alone; schedule intermediate checks between calibrations.
   - When drift fires, look BACKWARD and re-adjudicate prior outputs; the worst failure is a silent
-    shift with no visible error. Full cited set + verification: METROLOGY_BRIEF.md §2a.
+    shift with no visible error. Clause-level grounding: docs/SPEC_GROUNDING.md.
 
 HONESTY FIREWALL: DRIFT != WRONG. An out-of-control flag means the measurement *process*
 changed, not that the post-drift value is incorrect — that's a precision signal, not an
