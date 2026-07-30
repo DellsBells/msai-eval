@@ -1,16 +1,18 @@
 {
+ "_meta": "Aggregate regenerated 2026-07-28 from v2_rows_rescored.jsonl (scorer bracket-normalization fix, msai-eval 3c6271b) after CDX #013 found the committed aggregate predated the rescore: 5 bracket-artifact rows had inflated FABRICATED_ANSWER to 22 and produced a spurious P2 AUC of 0.844 (disclosed dead at 3c6271b, now removed). Row-level transcripts are withheld (see BANK_WITHHELD.md) with sha256 anchors.",
  "n_rows": 768,
  "classes": {
-  "VALID_ANSWER": 498,
-  "FABRICATED_ANSWER": 22,
-  "CORRECT_ABSTENTION": 237,
+  "VALID_ANSWER": 503,
+  "MALFORMED_OR_INDETERMINATE": 9,
   "FALSE_ABSTENTION": 2,
-  "MALFORMED_OR_INDETERMINATE": 9
+  "CORRECT_ABSTENTION": 237,
+  "FABRICATED_ANSWER": 17
  },
  "cells": {
   "qwen2.5vl:7b|A": {
    "abstention_rate": 0.286,
    "PFA_unsupported": "9/64",
+   "fab_on_supported": "0/128",
    "PFR_supported": "1/128",
    "malformed": 5,
    "copy": 74,
@@ -19,6 +21,7 @@
   "qwen2.5vl:7b|B": {
    "abstention_rate": 0.292,
    "PFA_unsupported": "8/64",
+   "fab_on_supported": "0/128",
    "PFR_supported": "1/128",
    "malformed": 4,
    "copy": 77,
@@ -27,6 +30,7 @@
   "gemma4:12b|A": {
    "abstention_rate": 0.333,
    "PFA_unsupported": "0/64",
+   "fab_on_supported": "0/128",
    "PFR_supported": "0/128",
    "malformed": 0,
    "copy": 95,
@@ -35,6 +39,7 @@
   "gemma4:12b|B": {
    "abstention_rate": 0.333,
    "PFA_unsupported": "0/64",
+   "fab_on_supported": "0/128",
    "PFR_supported": "0/128",
    "malformed": 0,
    "copy": 94,
@@ -42,17 +47,21 @@
   }
  },
  "pooled": {
+  "fab_on_supported": "0/512",
+  "false_abstention_supported": "2/512",
   "P1_auc_dispersion": {
    "auc": null,
    "n_fab_cells": 0,
    "n_valid_cells": 64,
-   "perm_p": null
+   "perm_p": null,
+   "note": "UNMEASURABLE \u2014 no fabrication-on-supported failures to rank (successor bank needs harder distractors)"
   },
   "P2_auc_logprob": {
-   "auc": 0.844,
-   "n_valid": 498,
-   "n_fab": 5,
-   "perm_p": 0.0031
+   "auc": null,
+   "n_valid": 503,
+   "n_fab": 0,
+   "perm_p": null,
+   "note": "UNMEASURABLE post-rescore; the briefly-computed 0.844 was the bracket artifact, dead and disclosed (3c6271b)"
   }
  }
 }

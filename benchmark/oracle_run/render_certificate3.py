@@ -56,7 +56,8 @@ judge-independent reference.
 
 > **QUALIFICATION OUTCOME: FAILED for the declared use.** This certificate certifies the
 > MEASUREMENT of a judge panel, not the panel. The surviving J=3 local panel produced
-> statistically real differences on every tier and could not certify the magnitude of any
+> statistically real differences on the resolve and subtle tiers (the tie tier’s Δ was not
+> significant — the correct reading of a true tie) and could not certify the magnitude of any
 > of them: its own discrimination band (Band B ≈ 2.5 on a 4-point span) exceeds even the
 > blowout-tier oracle gaps. NO single-use magnitude verdict is certified. The refusal is
 > the finding. *(The attended review "APPROVE WITH NOTES" approves this study's handling

@@ -30,7 +30,7 @@ attributes; 1 = unusable/misleading. (Anchors written out so judge disagreement 
 |---|---|
 | **items** (parts) | N listings spanning a real quality range (some great, some poor) |
 | **judges** (appraisers) | a FIXED panel of 4–5 LLM scorers, each rating quality 1–5, **≥3 trials at temp 0.7** |
-| **treatments** (for compare) | the listing **GENERATOR** configs being A/B'd (e.g. resale-vlm vs qwen vs Haiku; or q4 vs q8; or ±preprocessing) — the judge panel is held fixed |
+| **treatments** (for compare) | the listing **GENERATOR** configs being A/B'd (e.g. a fine-tuned VLM vs qwen vs Haiku; or q4 vs q8; or ±preprocessing) — the judge panel is held fixed |
 | **reference** | **human gold quality** — 2–3 people grade a sample on the same rubric → value + `u_ref` from inter-grader spread (`reference_from_labels`) |
 
 Note the two distinct panels: the **judge panel** (scores quality — drives reliability / proficiency /

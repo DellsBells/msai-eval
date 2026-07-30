@@ -59,10 +59,9 @@ to LLM-as-judge evaluation.
 ## 4. End-to-end on REAL data with a cross-source UPC reference (Phase 4)
 
 A run of the *whole stack* on real data, not synthetic. 14 products from Open Beauty Facts, a panel of
-three local vision models (qwen3.5:27b / resale-vlm-v2:12b / qwen2.5vl:7b), 2 trials each at temperature
+three local vision models (qwen3.5:27b / an internally fine-tuned 12B VLM / qwen2.5vl:7b), 2 trials each at temperature
 0.7. Each model reads the brand off the real product photo; the score is the token-overlap of its brand
-vs the catalog brand. Reproducible via `benchmark/phase4_validation.py`; raw output (incl. per-(item,
-judge,score)) in `benchmark/phase4_result.json`. **This is the corrected re-run** — the gauge-track
+vs the catalog brand. The run script and raw per-(item, judge, score) output live in the private archive — the records derive from Open Beauty Facts (ODbL) and a commercial UPC API and are not redistributed here; the aggregate claims below are what this document asserts. **This is the corrected re-run** — the gauge-track
 review caught two framing bugs in the first pass; both are now fixed in code and the claims below are
 the honest, corrected output.
 
@@ -76,10 +75,10 @@ claimed in the first pass was a bug, not a win:** OBF `"Weleda"` vs upcitemdb's 
 data — the contested-truth handling remains UNEXERCISED**, an honest gap, not a demonstrated win.
 
 **The numbers (corrected run):**
-- **Accuracy vs UPC truth:** qwen3.5:27b **93%**, qwen2.5vl:7b **93%**, resale-vlm-v2:12b **~57–61%** —
-  reproduced across both draws; the fine-tuned `resale-vlm-v2` is materially the laggard.
+- **Accuracy vs UPC truth:** qwen3.5:27b **93%**, qwen2.5vl:7b **93%**, the internal fine-tune **~57–61%** —
+  reproduced across both draws; the fine-tuned `the internal fine-tune` is materially the laggard.
 - **Per-judge bias** (the verdict to read here — NOT the OUTLIER label, see below): qwen3.5 +0.11,
-  qwen2.5vl +0.11, **resale-vlm-v2 −0.21** (proficiency `z̄ = −1.53`). Bias cleanly fingers the weak model.
+  qwen2.5vl +0.11, **the internal fine-tune −0.21** (proficiency `z̄ = −1.53`). Bias cleanly fingers the weak model.
 - **Reliability / gauge:** Krippendorff α = 0.267; %GRR = 81%, ndc = 1 → `gauge_judgement = NOT
   ACCEPTABLE` — this panel cannot resolve on the [0,1] brand-overlap scale, because between-judge
   disagreement (the weak model) dominates.
@@ -102,7 +101,7 @@ bias** above, not the En/OUTLIER label.
   validate the GUM `U`-band's ability to *resolve a real sub-point delta*. That needs a **non-frozen,
   graded** task (a subjective quality score at temp>0) — the keystone open item.
 
-**The real, actionable resale-ai finding stands:** the fine-tuned **resale-vlm-v2:12b (~57%) is
+**The real, actionable product-lane finding stands:** the fine-tuned **the internal fine-tune (~57%) is
 materially worse at brand identification than the general qwen models (93%)**, and the uncertainty
 budget's dominant lever (between-judge reproducibility) points straight at it.
 
@@ -120,7 +119,7 @@ frozen**: brand-ID is deterministic per cell (within-cell variance ≈ 0), so re
 and `compare()` correctly refuses to certify a guard-band verdict — the *same* root cause as
 `gauge_judgement = INDETERMINATE`, the honesty firewall firing consistently across both halves of the
 stack. All verdicts **provisional**: baseline `qwen3.5:27b` mean 0.93; `qwen2.5vl:7b` Δ = 0.000;
-`resale-vlm-v2:12b` Δ = **−0.214** (95% CI [−0.429, 0.000], Holm p = 0.148) — not even statistically
+`the internal fine-tune` Δ = **−0.214** (95% CI [−0.429, 0.000], Holm p = 0.148) — not even statistically
 resolvable after multiplicity correction in this run, and well inside the guard band (`U = 0.922`,
 floored at 2·GRR, reproducibility-dominated 59%). So the **accuracy + reproducibility tiers and the
 honesty firewalls are validated end-to-end on real data; the resolution / `U`-band tier is NOT** — a

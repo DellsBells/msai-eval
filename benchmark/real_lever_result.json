@@ -1,7 +1,0 @@
-{
-  "resale-vlm  base  / raw  ": 0.36666666666666664,
-  "resale-vlm  OCR   / raw  ": 0.4,
-  "resale-vlm  base  / prep ": 0.6,
-  "resale-vlm  OCR   / prep ": 0.7,
-  "qwen3.5:27b base / raw (ceiling)": 0.7333333333333333
-}

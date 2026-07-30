@@ -52,3 +52,32 @@ Two identities anchor the chain:
 | 'What's next' scoring economy: +1 correct, −3 wrong, 0 honest refusal | RECEIPTED | `benchmark/chicken_run/CHICKEN_RUN_PREREG.md §3 lines 49–50 ('correct +1 · wrong −λ · abstain 0 … default λ=3 → break-even confidence λ/(1+λ) = 75%')` |
 | M8: 'ndc … failed its audition on AI judges and was demoted to advisory' | RECEIPTED | `docs/TRANSFER_LEDGER.md:30 (row 13, verdict 'DEMOTED (evidence-driven)')` |
 | M2: between-judge disagreement is '~half the variance in every study' / 'dominant lever in every tier' | RECEIPTED | `benchmark/CERTIFICATE_MSAI-8C06733F42F0.md §4 (44.2%, 49.8%, 48.5% of u_c² — reproducibility named dominant lever in all three tiers)` |
+
+## Amendments — post-CDX #013 (cross-lineage adversarial review, 2026-07-28)
+
+Codex's publish-gate review (verdict: FAIL for RC1, fixes enumerated) drove these
+changes; rows above are preserved as generated, corrections recorded here append-only:
+
+1. **By-part chart values corrected on the site.** Three of ten plotted panel deltas
+   (t01, t10, t25) were computed with a pooled-mean draft method instead of the
+   pipeline's per-judge-mean method and drifted from the committed analysis. All ten
+   now recompute exactly from `oracle_study_scores.json` via the per-judge method and
+   match the H3 event anchors in `analysis_results.json` (e.g. t01 = −0.056 raw).
+2. **Entropy v2 aggregate regenerated from rescored rows.** The committed
+   `v2_results.json` predated the bracket-artifact rescore (msai-eval 3c6271b): it
+   carried FABRICATED_ANSWER = 22 (5 were scorer artifacts) and the dead P2 AUC 0.844.
+   Now: FABRICATED = 17, `pooled.fab_on_supported = 0/512` and
+   `pooled.false_abstention_supported = 2/512` are direct public receipts for the site's
+   claims, and both AUCs are explicitly UNMEASURABLE with notes. Site bar updated ~3% → ~2%.
+3. **Certificate 3 wording corrected (Revision R1, appended to the certificate):**
+   "statistically real differences on every tier" overstated the tie tier
+   (`tiers.tie.sig: false` — the correct reading of a true tie). No number changed.
+4. **Site overclaims reworded:** "Every number checkable" → "Receipts published for
+   every headline number" (two † numbers and the withheld bank make "every" false);
+   "flagship sealed & staged" / "Now running … sealed before training" → prereg
+   drafted, seal pending; "the exit did the work" causal phrasing → correlational,
+   with the no-chute ablation named as the next preregistered study.
+5. **Second legacy stratum removed:** internal fine-tune (resale-vlm) result files and
+   Open Beauty Facts / commercial-UPC-API record-level artifacts (`phase4_*`,
+   `tier2_result.json`, `real_lever_result.json`, `stageA_validation.py`) — sources
+   are still named and credited in `VALIDATION.md` prose; records are not redistributed.

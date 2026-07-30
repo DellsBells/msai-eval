@@ -12,7 +12,8 @@ judge-independent reference.
 
 > **QUALIFICATION OUTCOME: FAILED for the declared use.** This certificate certifies the
 > MEASUREMENT of a judge panel, not the panel. The surviving J=3 local panel produced
-> statistically real differences on every tier and could not certify the magnitude of any
+> statistically real differences on the resolve and subtle tiers (the tie tier’s Δ was not
+> significant — the correct reading of a true tie) and could not certify the magnitude of any
 > of them: its own discrimination band (Band B ≈ 2.5 on a 4-point span) exceeds even the
 > blowout-tier oracle gaps. NO single-use magnitude verdict is certified. The refusal is
 > the finding. *(The attended review "APPROVE WITH NOTES" approves this study's handling
@@ -176,3 +177,13 @@ git show 60c6525:docs/CODE_ORACLE_PREREG.md | shasum -a 256    # → 19bdfc44…
 
 Evidence chain: corpus `5d64dca` → gate `dcc77d2`/`746a02b` → study `bb81cbc` → analysis
 `006b04c`. Trust attaches to the receipt, not the author.
+
+---
+
+*Revision R1, 2026-07-28 — wording correction per CDX #013 (adversarial publish-gate
+review, cross-lineage): the qualification-outcome header previously read "statistically
+real differences on every tier"; the tie tier's Δ = −0.167 is **not** statistically
+significant (`analysis_results.json → tiers.tie.sig: false`) — which is itself the
+correct panel behavior on a true tie. Wording now matches the committed analysis.
+No measured value, verdict state, or hash-anchored artifact changed; the certificate
+ID remains the sha256 of the unmodified scores file.*
