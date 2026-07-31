@@ -4,6 +4,11 @@
 
 **Gage R&R for LLM-as-judge evals. Measure your measurement system, not your model.**
 
+> **New here — especially if you come from the metrology world?** Read
+> [`START_HERE.md`](START_HERE.md): a 10-minute guided path from the results page to
+> checking a receipt yourself, with a bench-language translation table. You already
+> know the hard half.
+
 MSAI brings the discipline manufacturers use to decide whether a gauge can be
 trusted — **Measurement System Analysis (MSA)** — to the reproducibility of
 LLM-as-judge evaluation. It answers a question the AI-eval field mostly skips:
