@@ -9,7 +9,7 @@ description = "MSAI — Measurement System Analysis for Intelligence. Gage R&R f
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "Symmetry Core" }]
+authors = [{ name = "Jake Makobi Waters" }]
 keywords = ["llm", "evaluation", "llm-as-judge", "reliability", "gage-rr", "msa", "metrology", "inter-rater", "reproducibility"]
 classifiers = [
   "Development Status :: 4 - Beta",
